@@ -57,6 +57,38 @@ nav img{
     width: 100%;
 }
 
+
+.icons li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.icons li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.icons li::after{
+    content: '';
+    width: 0%;
+    height:2px;
+    background: #717c7d;
+    display: block;
+    margin: auto;
+    transition: 1.0s;
+}
+    
+.icons li:hover::after{
+    width: 100%;
+}
+
+
+
+
 .text-box{
     width: 40%;
     top: 5%;
