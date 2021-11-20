@@ -5,10 +5,10 @@
 
 /* BACKGROUND */
 .container{
-    width: 100%;
-    height: 100vh; 
-    min-height: 1020px;
-    background-color: #0b0c0d;
+    max-width: 100%;
+    max-height: 100vh; 
+    min-height: 2020px;
+    background-color: rgb(11,12,13,1.0);
     background-position: center;
     background-size: cover;
     margin: 0;
@@ -21,9 +21,10 @@
 .navigation-bar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 2% 6%;
-    height: 4%;
+    height: 3%;
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
@@ -32,25 +33,25 @@
 
 .nav{
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 /* SOCIAL MEDIA ICONS */
-.pictures li{
+.icons li{
     margin-left: 5px;
-    justify-content: left;
+    justify-content: flex-start;
     list-style: none;
     display: inline-block;
-    padding: 8px 25px;
+    padding: 5px 25px;
     position: relative;
 }
 
-.pictures li a{
+.icons li a{
     color: #0b0c0d;
     text-decoration: none;
     font-size: 25px;
 }
 
-.pictures li::after{
+.icons li::after{
     content: '';
     width: 0%;
     height:2px;
@@ -60,23 +61,24 @@
     transition: 1.0s;
 }
     
-.pictures li:hover::after{
+.icons li:hover::after{
     width: 100%;
 }
 
 /* NAV. TEXT */
 .words ul li{
-    justify-content: right;
+    justify-content: flex-end;
     list-style: none;
     display: inline-block;
     margin-right: 5px;
-    padding: 8px 15px;
+    padding: 5px 15px;
     position: relative;
 }
 .words ul li a{
     text-decoration: none;
     color:#0b0c0d;
     font-size: 25px;
+    font-weight: 100;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 
 }
@@ -107,7 +109,15 @@
     padding-right: 8px;
     flex-basis: 50%;
 }
+.column img{
+    width: 80%;
+    height: auto;
+    margin: 20px 0 5px;
+}
+
+
 .column p{
+    margin: 5px 0 30px;
     margin-left: 10px;
     width: 80%;
     justify-content: left;
@@ -123,7 +133,7 @@ button{
     display: inline-block;
     text-decoration: none;
     width: 200px;
-    color:#FFFFFF;
+    color: inherit;
     font-size: 13px;
     padding: 15px 35px;
     background: transparent;
@@ -164,6 +174,7 @@ button:hover{
 }
 
 .foot{
+    justify-content: end;
     width: 100%;
     text-align: center;
     padding: 30px 0;
@@ -173,7 +184,7 @@ button:hover{
 }
 .foot h4{
     margin-bottom: 25px;
-    margin-top: 20px;
+    margin-top: 80px;
     font-weight: 600;
     font-size: 25px;
 }
@@ -346,6 +357,23 @@ button:hover{
 }
 
 
+.card-one img{
+    display: flex;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
 
+.card-one h3{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    right: 10%;
+    margin-right: 10px;
+    color: #717c7d;
+    font-family: 'Road Rage', cursive;
+    font-size: 30px;
+}
 
 
