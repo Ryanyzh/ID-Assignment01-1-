@@ -78,8 +78,8 @@ body {
 .words li a{
     text-decoration: none;
     color:#924444;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 1000;
     font-family: 'Rock Salt', cursive;
 
 }
@@ -121,23 +121,6 @@ body {
 }
 
 
-.row{
-    display: flex;
-    margin: 0;
-}
-
-
-
-.row img{
-    opacity: 0.4;
-    width: 90%;
-    max-height: 400px; 
-    margin-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: stretch;
-    align-items: center;
-}
 
 
 
