@@ -2,6 +2,13 @@
 hi there:)
 
 
+first page: index.html      solo.css
+second page: duo.html       duo.css
+third page: trio.html       trio.css
+fourth page: quartet.html   quartet.css
+
+
+
 colour choice:
 1. #0B0C0D : black
 2. #FFFFFF : white

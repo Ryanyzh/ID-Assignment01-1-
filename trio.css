@@ -1,0 +1,129 @@
+/* PAGE FOUR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family:'Road Rage', cursive ;
+}
+
+
+.sub-body{
+    background-color: #0b0c0d;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-weight: normal;
+    color:#FFFFFF;
+}
+
+
+.header{
+    color: #717c7d;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+
+.box .main-video{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.box .main-video iframe{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.box .main-video .title{
+    color: #717c7d;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box .video-list{
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 600px;
+    overflow-y: scroll;
+    color:#717c7d;
+}
+
+.box .video-list .vid iframe{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+    
+.box .video-list::-webkit-scrollbar{
+    width: 7px;
+}
+
+.box .video-list::-webkit-scrollbar-track{
+    background: #c6cad2;
+    border-radius: 50px;
+}
+
+.box .video-list::-webkit-scrollbar-thumb{
+    background: #717c7d;
+    border-radius: 50px;
+}
+
+.box .video-list .vid{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.box .video-list .vid:hover{
+    background: #c6cad2;
+}
+
+.box .video-list .vid.active{
+    background: #c6cad2;
+
+}
+
+.box .video-list .vid.active .title{
+    color: #0b0c0d;
+}
+
+.box .video-list .vid .title{
+    color: #717c7d;
+    font-size: 25px;
+}
+
+
+@media (max-width:900px){
+    .box{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 10px;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .box{
+        grid-template-columns: 1fr;
+    }
+}

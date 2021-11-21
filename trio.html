@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Fourth Page</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="trio.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Road+Rage&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
@@ -100,6 +99,7 @@
                 video.classList.add('active');
                 if(video.classList.add('active')){
                     let src = video.children[0].getAttribute('src');
+                    console.log("abcd");
                     mainVideo.src = src;
                     let text = video.children[1].innerHTML;
                     title.innerHTML = text;

@@ -4,76 +4,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale = 1.0">
     <title>Imagine Dragons Webpage</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="solo.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Road+Rage&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/59128dae28.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
   </head>
-  <body>
-    <section class = "header">
-      <nav>
-        <div class = "nav-links" id = "navLinks">
-          <i class="fas fa-bars" onclick = "hideMenu()"></i>
-          <ul class = "content">
-            <li><a href = "firstpage.html">HOME</a></li>
-            <li><a href = "secondpage.html">TEAM</a></li>
-            <li><a href = "thirdpage.html">STORE</a></li>
-            <li><a href = "fourthpage.html">PLAYLIST</a></li>
-            <li><a href = "fifthpage.html">EVENTS</a></li>
-          </ul>
 
-          <ul class = "icons">
+
+
+
+
+
+  <body>
+  <div class = "container">
+      <div class = "navigation-bar">
+        <nav class = "icons">
+          <ul>
             <li><a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
           </ul>
-          <i class="fas fa-hand-point-left" onclick = "showMenu()"></i>
+        </nav>
+        <nav class = "words">
+          <ul>
+            <li><a href = "indexpage.html">HOME</a></li>
+            <li><a href = "secondpage.html">TEAM</a></li>
+            <li><a href = "thirdpage.html">STORE</a></li>
+            <li><a href = "fourthpage.html">PLAYLIST</a></li>
+            <li><a href = "fifthpage.html">EVENTS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <section>
+      <div class = "body">
+        <div class = "column">
+          <img src = "https://www.logolynx.com/images/logolynx/68/68bcf842fb476893a785c685c5542318.png" alt = "brand logo">
+          <P>Imagine Dragons is an alternative-rock band from Las Vegas, Nevada. 
+            Band members include frontman Dan Reynolds, bassist Ben McKee, guitarist Wayne Sermon, 
+            and drummer Daniel Platzman. As of 2015, they have released two studio albums. Their 
+            first, "Night Visions", was released in September of 2012 and their sophomore studio album 
+            "Smoke + Mirrors" was released in February of 2015.</P>
+            <button type = "button"><a href = "https://www.liveabout.com/imagine-dragons-profile-4149815#:~:text=Imagine%20Dragons%20(formed%202008)%20emerged,storm%20the%20mainstream%20music%20charts.">Click Here To Find Out More</a></button>
         </div>
-        
+        <div class = "column">
+          <div class = "cards">
+            <img class = "A0" src = "https://www.testicanzone.com/wp-content/uploads/2018/11/Imagine-Dragons.jpg" alt="01">
+            <img class = "B0" src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt="02">
+            </class>
+          </div>
+        </div>
 
-      </nav>
-    </section>  
-
-    <div class = "text-box">
-      <a href = ""><img src = "https://data.whicdn.com/images/166290045/original.png" alt="brand logo"></a>
-      <p>Imagine Dragons is an alternative-rock band from Las Vegas, Nevada. 
-          Band members include frontman Dan Reynolds, bassist Ben McKee, guitarist Wayne Sermon, 
-          and drummer Daniel Platzman. As of 2015, they have released two studio albums. Their 
-          first, "Night Visions", was released in September of 2012 and their sophomore studio album 
-          "Smoke + Mirrors" was released in February of 2015.</p>
-      <a href = "https://www.liveabout.com/imagine-dragons-profile-4149815#:~:text=Imagine%20Dragons%20(formed%202008)%20emerged,storm%20the%20mainstream%20music%20charts." class = "button01">Click Here To Find Out More</a>
-    </div>
-    
-
-    <div class = "images">
-      
-    </div>
+      </div>
+      </section>
 
 
-    <section class = "About">
+      <section> 
+        <div class = "foot">
+          <h4>About Author</h4>
+          <p>Hi, I am Ryan, the creator of this website for my Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
+        </div>
+      </section>
+
+  </div>
 
 
-    </section>
-
-    <section class = "footer">
-      <h4>About Author</h4>
-      <p>Hi, I am Ryan, the creator of this website for my Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
-
-    </section>
-
-
-    
-    <script>
-      var navLinks = document.getElementById("navLinks");
-      function showMenu(){
-        navLinks.style.left = "0";
-      }
-      function hideMenu(){
-        navLinks.style.left = "-200px";
-      }
-    </script>
   </body>
 </html>
