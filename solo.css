@@ -5,18 +5,10 @@
 
 body {
     width: 100%;
-}
-
-/* BACKGROUND */
-.container{
-    max-width: 100%;
-    max-height: 100vh; 
-    min-height: 2020px;
+    height: 100vh; 
     background-color:#F2EFDE;
     background-position: center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -28,7 +20,6 @@ body {
     align-items: center;
     width: 100%;
     padding: 2% 0%;
-    height: 3%;
     display: flex;
     align-items: center;
     background-color: #A9A395;
@@ -39,19 +30,21 @@ body {
     flex: 1;
     text-align: center;
 }
+
 /* SOCIAL MEDIA ICONS */
 .icons li{
-    margin-left: 5px;
+    left: 50px;
+    margin-left: 25px;
     justify-content: flex-start;
     list-style: none;
     display: inline-block;
-    padding: 5px 25px;
+    padding: 5px 20px;
     position: relative;
     cursor: pointer;
 }
 
 .icons li a{
-    color: #0b0c0d;
+    color: #924444;
     text-decoration: none;
     font-size: 25px;
 }
@@ -71,22 +64,23 @@ body {
 }
 
 /* NAV. TEXT */
-.words ul li{
+.words li{
+    right: 50px;
     justify-content: flex-end;
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
-    padding: 5px 15px;
+    margin-right: 20px;
+    padding: 5px 20px;
     position: relative;
     cursor: pointer;
 }
 
-.words ul li a{
+.words li a{
     text-decoration: none;
     color:#924444;
-    font-size: 25px;
-    font-weight: 100;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Rock Salt', cursive;
 
 }
 
@@ -104,43 +98,89 @@ body {
     width: 100%;
 }
 
-/* PAGE ONE */
-.body{
+
+
+.foot{
+    justify-content: end;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    color: #777671;
+    font-family: 'Londrina Sketch', cursive;
+    line-height: 20px;
+}
+.foot h4{
+    margin-bottom: 25px;
+    margin-top: 500px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.foot p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.row{
     display: flex;
-    height: 90%;
+    margin: 0;
+}
+
+
+
+.row img{
+    opacity: 0.4;
+    width: 90%;
+    max-height: 400px; 
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: stretch;
     align-items: center;
 }
 
+
+
+/* PAGE ONE */
+.sections{
+    display: flex;
+    height: 90%;
+    text-align: center;
+}
+
+
 .column{
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
     flex-basis: 50%;
 }
+
 .column img{
-    width: 80%;
+    width: 75%;
     height: auto;
     margin: 20px 0 5px;
+    justify-content: flex-end;
 }
 
 
 .column p{
     margin: 5px 0 30px;
-    margin-left: 10px;
+    margin-left: 0;
     width: 80%;
-    justify-content: left;
-    text-align: left;
+    justify-content: flex-end;
+    text-align: right;
     align-items: stretch;
     color: #777671;
     font-size: 30px;
     line-height: 25px;
-    font-family: 'Road Rage', cursive;
+    font-family: 'Boogaloo', cursive;
 }
 
 button{
     display: inline-block;
     text-decoration: none;
     width: 200px;
-    color: inherit;
+    color: #777671;
     font-size: 13px;
     padding: 15px 35px;
     background: transparent;
@@ -148,7 +188,7 @@ button{
     border-radius: 0;
     outline: none;
     margin-top: 30px;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     position: relative;
     cursor: pointer;
@@ -180,24 +220,16 @@ button:hover{
     transform: translateY(10px);
 }
 
-.foot{
-    justify-content: end;
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    color: #FFFFFF;
-    font-family: 'Road Rage', cursive;
-    line-height: 20px;
-}
-.foot h4{
-    margin-bottom: 25px;
-    margin-top: 80px;
-    font-weight: 600;
-    font-size: 25px;
-}
-.foot p{
-    font-size: 20px;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -237,45 +269,5 @@ button:hover{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.right-box{
-    display: flex;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-
-.card-one{
-    width: 70%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-one{
-    justify-content: flex-end;
-    align-items:center;
-    text-align: left;
-    right: 10%;
-    margin-right: 10px;
-    color: #717c7d;
-    font-family: 'Road Rage', cursive;
-    font-size: 30px;
-}
 
 

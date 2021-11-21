@@ -1,0 +1,23 @@
+.right-box{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.card-one{
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-one{
+    justify-content: flex-end;
+    align-items:center;
+    text-align: left;
+    right: 10%;
+    margin-right: 10px;
+    color: #717c7d;
+    font-family: 'Road Rage', cursive;
+    font-size: 30px;
+}
