@@ -66,3 +66,18 @@ gainbridge fieldhouse
 
 header image taken from:
  <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a>
+
+
+ ben:
+ https://i.pinimg.com/originals/eb/a0/ee/eba0eeb69b54d8b74b9df7494c7abc24.jpg
+ wayne:
+https://cdnb.artstation.com/p/assets/images/images/007/226/995/large/valentina-cannas-wayne.jpg?1504613167
+
+
+
+https://i.pinimg.com/originals/70/aa/fb/70aafb95d22abac307926d5baf48ba2f.jpg
+ dan:
+ https://cdna.artstation.com/p/assets/images/images/006/968/370/large/valentina-cannas-dan-reynolds-1.jpg?1502662275 
+ daniel:
+ https://cdnb.artstation.com/p/assets/images/images/006/968/371/large/valentina-cannas-platzman2.jpg?1502662288
+ 
