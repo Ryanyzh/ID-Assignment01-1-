@@ -64,7 +64,7 @@ body {
 }
 
 /* NAV. TEXT */
-.words li{
+.title li{
     right: 50px;
     justify-content: flex-end;
     list-style: none;
@@ -75,7 +75,7 @@ body {
     cursor: pointer;
 }
 
-.words li a{
+.titles li a{
     text-decoration: none;
     color:#924444;
     font-size: 13px;
@@ -84,7 +84,7 @@ body {
 
 }
 
-.words li::after{
+.titles li::after{
     content: '';
     width: 0%;
     height:2px;
@@ -94,7 +94,7 @@ body {
     transition: 1.0s;
 }
     
-.words li:hover::after{
+.titles li:hover::after{
     width: 100%;
 }
 
