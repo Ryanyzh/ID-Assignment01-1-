@@ -4,3 +4,15 @@
     display : flex; 
     
 }
+
+.col1{
+    flex-basis: 60%;
+}
+
+.col2{
+    flex-basis: 40%;
+}
+.imgs{
+    width: 30%;
+    height: auto;
+}

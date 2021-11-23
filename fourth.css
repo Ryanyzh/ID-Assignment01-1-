@@ -1,23 +1,71 @@
-.right-box{
+.tickets{
     display: flex;
-    margin-left: 20px;
-    margin-top: 50px;
+    padding: 3px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.ticket1{
+    background-color: black;
+    position: absolute;
 }
 
-.card-one{
+.ticket1 .leftbox{
+    top: 10%;
+    left: 10%;
     width: 70%;
     height: auto;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.text-one{
-    justify-content: flex-end;
-    align-items:center;
+.ticket1 .rightbox{
+    top: 10%;
+    left: 70%;
+    width: 500px;
+    height: 325px;
+    align-items: flex-start;
     text-align: left;
-    right: 10%;
-    margin-right: 10px;
-    color: #717c7d;
-    font-family: 'Road Rage', cursive;
-    font-size: 30px;
+    color: #000000;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.ticket2 .leftbox{
+    top: 40%;
+    left: 10%;
+    width: 500px;
+    height: 325px;
+    align-items: flex-end;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.ticket2 .rightbox{
+    top: 40%;
+    left: 70%;
+    width: 70%;
+    height: auto;
+    align-items: flex-start;
+}
+
+.ticket3 .leftbox{
+    top:900px;
+    left: 10%;
+    width: 70%;
+    height: auto;
+    align-items: flex-end;
+}
+
+.ticket3 .rightbox{
+    top: 900px;
+    left: 70%;
+    width: 500px;
+    height: 325px;
+    align-items: flex-start;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    background-color: aqua;
 }
