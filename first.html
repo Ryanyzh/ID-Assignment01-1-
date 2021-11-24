@@ -18,66 +18,64 @@
 
 
   <body>
-  <div class = "container">
-      <div class = "navigation-bar">
-        <nav class = "icons">
-          <ul>
-            <li><a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
-          </ul>
-        </nav>
-        <nav class = "words">
-          <ul>
-            <li><a href = "indexpage.html">HOME</a></li>
-            <li><a href = "duo.html">TEAM</a></li>
-            <li><a href = "trio.html">PLAYLIST</a></li>
-            <li><a href = "quartet.css">EVENTS</a></li>
-          </ul>
-        </nav>
-      </div>
+    <section class = "feedback">
+      <div>
+        <h3>Feedback for Improvement XD</h3>
+        <form action="#" method = "GET">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class = "name" placeholder="Your name..." >
+      
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" class = "email" placeholder="Your email..." required>
+      
+          <label for="website">What is the name of the band?</label>
+          <select id="website" name="website" class = "website">
+            <option value="Maroon5">Maroon 5</option>
+            <option value="Coldplay">Coldplay</option>
+            <option value="ImagineDragons">Imagine Dragons</option>
+            <option value="beatles">The Beatles</option>
+          </select>
 
+          <div class = "emoji">
+            <div class = "faces">
+              <div class = "here">
+                <i class="far fa-smile-wink"></i>
+                <h2>Noice!</h2>
+              </div>
 
-      <section>
-      <div class = "row">
-        <img src = "https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Imagine%2BDragons/Imagine%2520Dragons_16_9_1603903809.jpg?itok=Zp4Qm0IA" alt = "brand image">
-        <h1>Imagine Dragons</h1>
-      </div>
+              <div class = "here active">
+                <i class="far fa-meh-rolling-eyes"></i>
+                <h2>Meh...</h2>
+              </div>
 
-
-
-      <div class = "sections">
-        <div class = "column">
-          <img src = "https://www.logolynx.com/images/logolynx/68/68bcf842fb476893a785c685c5542318.png" alt = "brand logo">
-          <P>Imagine Dragons is an alternative-rock band from Las Vegas, Nevada. 
-            Band members include frontman Dan Reynolds, bassist Ben McKee, guitarist Wayne Sermon, 
-            and drummer Daniel Platzman. As of 2015, they have released two studio albums. Their 
-            first, "Night Visions", was released in September of 2012 and their sophomore studio album 
-            "Smoke + Mirrors" was released in February of 2015.</P>
-            <button type = "button"><a href = "https://www.liveabout.com/imagine-dragons-profile-4149815#:~:text=Imagine%20Dragons%20(formed%202008)%20emerged,storm%20the%20mainstream%20music%20charts.">Click Here To Find Out More</a></button>
-        </div>
-        <div class = "column">
-          <div class = "cards">
-            <img class = "A0" src = "https://www.testicanzone.com/wp-content/uploads/2018/11/Imagine-Dragons.jpg" alt="01">
-            <img class = "B0" src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt="02">
-            </class>
+              <div class = "here">
+                <i class="far fa-sad-tear"></i>
+                <h2>Boo :/</h2>
+              </div>
+              
+            </div>
           </div>
-        </div>
 
+
+
+          <input type="submit" value="Submit" class = "submit">
+        </form>
       </div>
-      </section>
+    </section>
 
+    <script>
+      const ratings= document.querySelector(".here");
+      const panel = document.querySelector(".faces");
 
-      <section> 
-        <div class = "foot">
-          <h4>About Author</h4>
-          <p>Hi, I am Ryan, the creator of this website for my Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
-        </div>
-      </section>
+      ratings.foreach((el) =>{
+        el.addEventsListener("click", () =>{
+          ratings.foreach((innerEl) => {
+            innerEl.classList.remove("active");
+          })
 
-  </div>
-
-
+          el.classList.add("active");
+        })
+      })
+    </script>
   </body>
 </html>
