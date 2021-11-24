@@ -29,39 +29,27 @@ colour choice:
 
 
 
-6 FEB 
-miami, fl, usa
-ftx arena
-$45 - 350
+6 FEB 2022
+MIAMI, FL, USA
+FTX ARENA 
 
-8 FEB 
-jacksonville, fl, usa
-vystar veterans arena
-
-10 FEB
-raleigh, nc, usa
-pnc arena 
-
-12 FEB
-columbia, sc, usa
-colonial life arena 
-
-14 FEB
-belmont park - long island, ny, usa
-ubs arena 
-
-16FEB
-montreal canada
-centre bell
+16 FEB 2022
+MONTREAL, CANADA
+CENTRE BELL
 
 
-19 FEB
-pittsburgh, pa, usa
-ppg paints arena 
+21 FEB 2022
+INDIANAPOLIS, IN, USA
+GAINBRIDGE FIELDHOUSE
 
-21 FEB
-indianapolis, in , usa
-gainbridge fieldhouse
+4 MARCH 2022
+VANCOUVER, CANADA
+ROGERS ARENA
+
+12 MARCH 2022
+LOS ANGELES, CA, USA
+STAPLES CENTER 
+
 
 
 header image taken from:
@@ -81,3 +69,11 @@ https://i.pinimg.com/originals/70/aa/fb/70aafb95d22abac307926d5baf48ba2f.jpg
  daniel:
  https://cdnb.artstation.com/p/assets/images/images/006/968/371/large/valentina-cannas-platzman2.jpg?1502662288
  
+
+
+
+
+
+ float: right;
+    top: 10%;
+    right: -375px;

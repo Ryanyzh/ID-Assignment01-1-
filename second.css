@@ -6,13 +6,14 @@
 }
 
 .col1{
-    flex-basis: 60%;
+    padding: 15px;
+    flex-basis: 55%;
+    background: #FF7200;
+    margin: 10px;
 }
 
 .col2{
-    flex-basis: 40%;
-}
-.imgs{
-    width: 30%;
-    height: auto;
+    flex-basis: 35%;
+    width: 100px;
+    height: auto
 }
