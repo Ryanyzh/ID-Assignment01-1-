@@ -4,133 +4,105 @@
 }
 
 
+
+
 .tickets{
-    width: 100%;
-    height: 100vh;
     display: flex;
-    padding: 3px;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: black;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    background-color: #c4c4c4;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    
+    margin-top: 10%;
+    padding: 0px;
+    left: 5%;
+    position: relative;
+    box-sizing: border-box;
 }
-
-
 
 .tickets ul{
     position: relative;
-    top: 20%;
-    margin: 0;
-    padding: 40px;
-    box-sizing: border-box;
 }
 
 .tickets ul li{
     list-style: none;
-    box-sizing: border-box;
-    height: 350px;
-    margin: 0;
-    flex-basis: 50%;
-}
-
-.tickets .leftbox{
-    position: relative;
-    margin: 0;
-    justify-content: flex-end;
-    float: left;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
+    height: 400px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 
-.tickets .rightbox{
-    flex-basis: 35%;
+.leftbox{
+    padding-left: 0px;
+    flex-basis: 60%;
+    background-color: bisque;
+}
+
+.leftbox img{
     position: relative;
-    padding: 0;
-    background: #4b4b4b;
-    box-sizing: border-box;
-    width: 50%;
-    justify-content: flex-start;
-    height: 300px;
+    height: 400px;
+    width: auto;
     float: right;
-    text-align: left;
+    top: 3.5%;
 }
 
-.tickets .rightbox h3{
-    position: absolute;
-    margin: 0;
+.rightbox{
     padding: 0;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 22px;
-    font-weight: 600;
+    flex-basis: 40%;
+    height: 400px;
+    background-color: aquamarine;
+    position: relative;
+    top: 14px;
+}
+
+
+.rightbox h3{
+    position: relative;
+    width: 100%;
+    top: 13%;
+    left: 5%;
+    text-align: left;
     color: #FF7200;
-}
-
-.tickets .rightbox a{
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,200%);
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px 10px;
-    border: 3px solid #FF7200;
-    margin-top: 15px;
-    font-size: 15px;
-    transition: 1.0s;
+    font-size: 23px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: 'Boogaloo', cursive;
+    line-height: 35px;
     align-items: center;
-
 }
 
-.tickets .rightbox a:hover{
-    background: #FF7200;
-    color: #FFFFFF;
-    border-color: #FF7200;
-}
-
-
-
-
-.feedback{
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.5);
-    padding: 20px;
-}
-
-.name, .email, .website {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+.button{
+    width: 340px;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    right: -200px;
+    top: -25%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    transform: rotate(270deg);
+    margin-bottom: 3000px;
+}
 
-  .name:focus , .email:focus, .website:focus {
-    background-color: #c4c4c4;
-  }
-  
-  .submit {
-    width: 100%;
-    background-color: transparent;
-    color: #000000;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .submit:hover {
+.button:hover{
+    border: 1px solid #FF7200;
     background-color: #FF7200;
-  }
+    transition: 1.0s;
+}
+
+
+
+
+
+
+
+
+
+
   

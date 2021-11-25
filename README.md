@@ -408,3 +408,61 @@ button:hover{
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feedback{
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+
+.name, .email, .website {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .name:focus , .email:focus, .website:focus {
+    background-color: #c4c4c4;
+  }
+  
+  .submit {
+    width: 100%;
+    background-color: transparent;
+    color: #000000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #FF7200;
+  }
