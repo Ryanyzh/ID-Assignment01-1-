@@ -12,8 +12,33 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    left: 5%;
+    position: relative;
+    background-color: aqua;
+}
+
+
+/* TITLE */
+.bandname {
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+    background-image: url("footer1.png");
+    background-size: 90%;
+    background-position: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Londrina Sketch', cursive;
+}
+
 /* NAVIGATION */
-.container-one{
+.nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +60,8 @@ body {
     list-style: none;
     display: inline-block;
     padding: 0px 40px;
-    position: relative;
+    position: fixed;
+    overflow: hidden;
 }
 
 .icons li a{
@@ -92,22 +118,7 @@ body {
 
 
 
-/* TITLE */
-.container-two {
-    display: flex;
-    margin-top: 50px;
-    width: 90%;
-    height: auto;
-    background-image: url("footer1.png");
-    background-size: 90%;
-    background-position: center;
-    justify-content: center;
-    position: relative;
-    left: 5%;
-    font-size: 100px;
-    font-weight: 400;
-    font-family: 'Londrina Sketch', cursive;
-}
+
 
 
 /* PAGE ONE */
