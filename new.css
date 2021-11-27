@@ -1,0 +1,119 @@
+/* Makes HTML longer so that it doesn't cut off very awkwardly*/
+html{
+    height: 140%;
+    overflow-x: visible;
+}
+  
+
+
+/* CSS that adjusts the box that asks for user's name and email */
+form{
+    position: relative;
+    top: 100px;
+    left: 15%;
+    width: 80%;
+    color: black;
+}
+  
+fieldset{
+    font-size: 22px;
+    border: 3px solid black;
+    padding-left: 3%;
+}
+
+.formalityspacing{
+    height: 20px;
+    width: 10px;
+}
+  
+.namebox, .emailbox{
+    width: 30%;
+}
+  
+
+
+/* CSS to sylise the slider */
+.slider {
+    appearance: none;
+    width: 100%;
+    height: 5px; 
+}
+
+  
+.sliderinfo{
+    font-size: 25px;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.slidernot{
+    font-size: 25px;
+    padding-top: 25px;
+    float: left;
+    color: darkred;
+}
+
+.slideryes{
+    font-size: 25px;
+    padding-top: 25px;
+    float: right;
+    color: lime;
+}
+
+
+
+/* Stylises the table */
+table {
+    position: relative;
+    top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+  
+#tableclarification{
+    font-size: 15px;
+}
+  
+td, th {
+    border: 5px solid black;
+    text-align: center;
+    padding: 8px;
+}
+  
+
+
+/* To make the text easier to discern in the table */
+tr:nth-child(even) {
+    background-color: rgba(195, 39, 234, 0.50);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(46, 29, 246, 0.50);
+}
+
+
+
+/* Stylises the text box at the bottom */
+.comments1{
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+}
+.comments2{
+    position: relative;
+    top: 100px;
+}
+  
+
+
+/* Submit Button */
+.submit{
+    height: 11;
+    width: 120px;
+    position: absolute;
+    top: 120%;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}

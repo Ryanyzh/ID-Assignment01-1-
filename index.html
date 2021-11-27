@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Dosis&family=Londrina+Sketch&family=Road+Rage&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Dosis&family=Londrina+Sketch&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/59128dae28.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
   </head>
@@ -15,35 +15,37 @@
 
 
   <body>
-    <section class = "container-one">
-        <div class = "bandname">
-            <h1>IMAGINE DRAGONS</h1>
-        </div>
-      <div class = "nav-bar">
+    <!--NAVIGATION BAR-->
+    <section class = "navbar" id = "thenavbar">
         <nav class = "icons">
-            <ul>
-                <li><a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
-            </ul>
+            <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
         </nav>
 
         <nav class = "titles">
-            <ul>
-                <li><a href = "index.html">HOME</a></li>
-                <li><a href = "">HISTORY</a></li>
-                <li><a href = "">PLAYLIST</a></li>
-                <li><a href = "">EVENTS</a></li>
-            </ul>
+            <a class = "active" href = "index.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
+            <a class = "active" href = "fourth.css"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
+            <a class = "active" href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
+            <a class = "active" href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
+            <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
         </nav>
-      </div>
+        <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
     </section>
-    <section class = "container-three">
-        <div class = "column">
+
+    <!--MAIN TITLE-->
+    <section class = "header">
+        <h1>IMAGINE<br>DRAGONS</h1>
+    </section>
+
+
+    <!--background info-->
+    <section class = "information">
+        <div class = "col-left">
             <img src = "https://lastfm.freetls.fastly.net/i/u/770x0/d645cfa73e13eb828349968ec2d0e234.jpg" alt="">
         </div>
-        <div class = "column">
+        <div class = "col-right">
             <p>Imagine Dragons is an alternative-rock band from Las Vegas, Nevada.
                 Band members include frontman Dan Reynolds, bassist Ben McKee, guitarist Wayne Sermon, and drummer Daniel Platzman. 
                 As of 2015, they have released two studio albums. 
@@ -51,94 +53,203 @@
             <a href="https://www.liveabout.com/imagine-dragons-profile-4149815" class = "button">Click Here For More</a>
         </div>
     </section>
-    <section class = "container-four">
-        <h1>Images + Snapshots</h1>
-        <div class = "slider">
-            <div class = "slides">
-                <input type = "radio" name = "radio-btn" id = "radio1">
-                <input type = "radio" name = "radio-btn" id = "radio2">
-                <input type = "radio" name = "radio-btn" id = "radio3">
-                <input type = "radio" name = "radio-btn" id = "radio4">
-                <input type = "radio" name = "radio-btn" id = "radio5">
-                <input type = "radio" name = "radio-btn" id = "radio6">
-                <input type = "radio" name = "radio-btn" id = "radio7">
-                <input type = "radio" name = "radio-btn" id = "radio8">
-                <input type = "radio" name = "radio-btn" id = "radio9">
-
-                <div class = "slide first">
-                    <img src = "https://www.filepicker.io/api/file/Rf0PQ6d7SWma5l6e9Jbk/convert?cache=true&crop=0%2C170%2C1500%2C750&crop_first=true&quality=90&w=1920" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F09%2Fgettyimages-699356866-2000.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://i.iheart.com/v3/re/new_assets/607f5114a8c4cb886e8c21c0?ops=contain(1480,0)" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://m.media-amazon.com/images/I/81zjK4Z1zyL._AC_SL1500_.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://martech.org/wp-content/uploads/2015/02/463035486.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_26/650336/150626-imagine-dragons-tz.jpg" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/01/17/imagine-dragons-02.jpg?width=982&height=726&auto=webp&quality=75" alt = "">
-                </div>
-                <div class = "slide">
-                    <img src = "https://s3.amazonaws.com/heights-photos/wp-content/uploads/2018/11/03133629/imagine-dragons-online.jpg" alt = "">
-                </div>
 
 
-                <!-- auto navigation -->
-                <div class = "navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                    <div class="auto-btn5"></div>
-                    <div class="auto-btn6"></div>
-                    <div class="auto-btn7"></div>
-                    <div class="auto-btn8"></div>
-                    <div class="auto-btn9"></div>
-                </div>
-
-                <!-- manual navigation -->
-                <div class = "navigation-manual">
-                    <label for = "radio1" class = "manual-btn"></label>
-                    <label for = "radio2" class = "manual-btn"></label>
-                    <label for = "radio3" class = "manual-btn"></label>
-                    <label for = "radio4" class = "manual-btn"></label>
-                    <label for = "radio5" class = "manual-btn"></label>
-                    <label for = "radio6" class = "manual-btn"></label>
-                    <label for = "radio7" class = "manual-btn"></label>
-                    <label for = "radio8" class = "manual-btn"></label>
-                    <label for = "radio9" class = "manual-btn"></label>
-                </div>
-                
+    <!--IMAGE SLIDER-->
+    <section class = "gallery">
+        <h2>IMAGES SLIDESHOW</h2>
+        <div class = "container">
+            <div class = "mySlides">
+                <div class = "numbertext">1/9</div>
+                <img src = "https://www.filepicker.io/api/file/Rf0PQ6d7SWma5l6e9Jbk/convert?cache=true&crop=0%2C170%2C1500%2C750&crop_first=true&quality=90&w=1920" alt = "Image 01" style = "width:100%">
             </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">2/9</div>
+                <img src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt = "Image 02" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">3/9</div>
+                <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F09%2Fgettyimages-699356866-2000.jpg" alt = "Image 03" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">4/9</div>
+                <img src = "https://i.iheart.com/v3/re/new_assets/607f5114a8c4cb886e8c21c0?ops=contain(1480,0)" alt = "Image 04" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">5/9</div>
+                <img src = "https://m.media-amazon.com/images/I/81zjK4Z1zyL._AC_SL1500_.jpg" alt = "Image 05" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">6/9</div>
+                <img src = "https://martech.org/wp-content/uploads/2015/02/463035486.jpg" alt = "Image 06" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">7/9</div>
+                <img src = "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_26/650336/150626-imagine-dragons-tz.jpg" alt = "Image 07" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">8/9</div>
+                <img src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/01/17/imagine-dragons-02.jpg?width=982&height=726&auto=webp&quality=75" alt = "Image 08" style = "width:100%">
+            </div>
+
+            <div class = "mySlides">
+                <div class = "numbertext">9/9</div>
+                <img src = "https://s3.amazonaws.com/heights-photos/wp-content/uploads/2018/11/03133629/imagine-dragons-online.jpg" alt = "Image 09" style = "width:100%">
+            </div>
+
+
+
+            <a class = "prev" onclick = "plusSlides(-1)">-</a>
+            <a class = "next" onclick = "plusSlides(1)">+</a>
+
+            <div class = "caption">
+                <p id= "caption"></p>
+            </div>
+            
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://www.filepicker.io/api/file/Rf0PQ6d7SWma5l6e9Jbk/convert?cache=true&crop=0%2C170%2C1500%2C750&crop_first=true&quality=90&w=1920" alt = "Image 01" style = "width: 100%" onclick = "currentSlide(1)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt = "Image 02" style = "width: 100%" onclick = "currentSlide(2)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F09%2Fgettyimages-699356866-2000.jpg" alt = "Image 03" style = "width: 100%" onclick = "currentSlide(3)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://i.iheart.com/v3/re/new_assets/607f5114a8c4cb886e8c21c0?ops=contain(1480,0)" alt = "Image 04" style = "width: 100%" onclick = "currentSlide(4)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://m.media-amazon.com/images/I/81zjK4Z1zyL._AC_SL1500_.jpg" alt = "Image 05" style = "width: 100%" onclick = "currentSlide(5)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://martech.org/wp-content/uploads/2015/02/463035486.jpg" alt = "Image 06" style = "width: 100%" onclick = "currentSlide(6)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_26/650336/150626-imagine-dragons-tz.jpg" alt = "Image 07" style = "width: 100%" onclick = "currentSlide(7)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/01/17/imagine-dragons-02.jpg?width=982&height=726&auto=webp&quality=75" alt = "Image 08" style = "width: 100%" onclick = "currentSlide(8)">
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "demo cursor" src = "https://s3.amazonaws.com/heights-photos/wp-content/uploads/2018/11/03133629/imagine-dragons-online.jpg" alt = "Image 09" style = "width: 100%" onclick = "currentSlide(9)">
+                </div>
+            </div>
+
         </div>
     </section>
 
+
+
+    <!--FOOTER-->
+    <div class = "footer">
+        <h3>
+            done by: Ryan Yong, S10219317<br>
+            Interactive Development Assignment One<br>
+            Enjoy and Cya!
+        </h3>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
     <script>
-        var counter = 1;
-        setInterval(function(){
-            document.getElementsById('radio' + counter).checked = true;
-            counter++;
-            if (counter > 4){
-                counter = 1;
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n){
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n){
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(){
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementsByClassName("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++){
+                slides[i].style.display = "none";
             }
-        },5000)
+            for (i = 0; i < dots.length; i++){
+                dots[i].className = dots[i].className.replace(" active","");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+
+
+
+
+        function myFunction(){
+            var x = document.getElementById("thenavbar");
+            if (x.className == "navbar"){
+                x.className += "responsive";
+            }else{
+                x.className = "navbar"
+            }
+    
+        }
     </script>
 
 
     <section class = "container-five"> 
     <div class = "foot">
-      <p>Author: Ryan Yong      |       Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
+      <p>Author: Ryan Yong&nbsp;&nbsp;-_-&nbsp;&nbsp;Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
     </div>
     </section>
 

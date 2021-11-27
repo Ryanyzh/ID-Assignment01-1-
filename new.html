@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+    <title>Imagine Dragons Webpage</title>
+    <link href="new.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Dosis&family=Londrina+Sketch&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59128dae28.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+
+
+  <body>
+    <!-- Just text to thank the user-->
+    <section class = "Thanks">
+        <h1>Thanks for reading till the end :)<br>
+            Please help to feel up this form for better website creation._.</h1>
+    </section>
+    
+    <form>
+        <section class = "Name&Email">
+            <fieldset>
+            <legend>Formalities:</legend>
+            <div class ="formalityspacing"></div>
+            <label for="name">Name:</label>
+            <input type="text" id = "name" class="namebox" required="required">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id = "email" class="emailbox" required="required">
+            <div class ="formalityspacing"></div>
+            </fieldset>
+        </section>
+    
+        <!-- Creates the slider -->
+        <section class = "Slider">
+            <h3 class = "sliderinfo">How much did you like this website?</h3>
+            <p class = "slidernot">Bad</p>
+            <p class = "slideryes">Good</p>
+            <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider">
+            </div>
+        </section>
+    
+        <!-- Creates the checkbox table -->
+        <section class = "Checkbox">
+            <table>
+            <tr>
+                <td><input type="checkbox" id="tableone" value="one"></td>
+                <td><p>Content and layout Design was enjoyable</p></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="tabletwo" value="two"></td>
+                <td><p>The colours used were pleasing</p></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="tablethree" value="three"></td>
+                <td><p>I have learned something new</p></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="tablefour" value="four"></td>
+                <td><p>I want to apply to Singapore Polytechnic</p></td>
+            </tr>
+            </table>
+        </section>
+    
+        <!-- Creates a textbox for users to add additional comments-->
+        <section class = "Comments">
+            <h3 class = "comments1">Additional comments: </h3>
+            <textarea class="comments2" rows="5" cols="100">I think your websites are</textarea>
+            <br><br>
+            <input type="submit" value="Submit" class = "submit">
+        </section>
+    
+        </form>
+
+  </body>
+</html>
