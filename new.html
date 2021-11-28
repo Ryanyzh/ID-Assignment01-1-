@@ -15,6 +15,27 @@
 
 
   <body>
+    <!--NAVIGATION BAR-->
+    <section class = "navbar" id = "thenavbar">
+        <nav class = "icons">
+            <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+        </nav>
+
+        <nav class = "titles">
+            <a class = "active" href = "index.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
+            <a class = "active" href = "fourth.css"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
+            <a class = "active" href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
+            <a class = "active" href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
+            <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+        </nav>
+        <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
+    </section>
+
+
+
     <!-- Just text to thank the user-->
     <section class = "thanks">
         <h1>Thanks for reading till the end :)<br>
@@ -23,115 +44,130 @@
     
 
 
-    <section class = "testing">
-
-    </section>
-
-
     <!--Feedback Form-->
     <section class = "feedback">
-        <div>
+        <div class = "boxing">
             <h3>Feedback for Improvement XD</h3>
             <form action="#" method = "GET">
-                <div class = "col-1">
-                    <label for="name">Name</label>
-                </div>
-
-                <div class = "col-2">
-                    <input type="text" id="name" name="name" class = "name" placeholder="Your name..." >
-                </div>
-
-                <div class = "col-1">
-                    <label for="email">Email Address</label>
-                </div>
-                
-                <div class = "col-2">
-                    <input type="text" id="email" name="email" class = "email" placeholder="Your email..." required>
-                </div>
-    
-                <div class = "emoji">
-                    <div class = "faces">
-
-                        <div class = "here">
-                            <i class="far fa-smile-wink"></i>
-                            <h2>Noice!</h2>
-                        </div>
-            
-                        <div class = "here active">
-                            <i class="far fa-meh-rolling-eyes"></i>
-                            <h2>Meh...</h2>
-                        </div>
-            
-                        <div class = "here">
-                            <i class="far fa-sad-tear"></i>
-                            <h2>Boo :/</h2>
-                        </div>
-                    
-                    </div>
-                </div>
-    
-
-                <!-- Creates a textbox for users to add additional comments-->
-                <div class = "comments">
+                <div class = "row">
                     <div class = "col-1">
-                        <label for="subject">Additional Comments:</label>
+                        <label for="name">Name:</label>
                     </div>
-
-                    <div class = "col-2">
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                    </div>
-                </div>
-
-
-                <div class = "submit">
-                    <input type="submit" value="Submit">
-                </div>
     
-              
+                    <div class = "col-2">
+                        <input type="text" id="name" name="name" class = "name" placeholder="Your name..." >
+                    </div>
+    
+                    <div class = "col-1">
+                        <label for="email">Email Address:</label>
+                    </div>
+                    
+                    <div class = "col-2">
+                        <input type="text" id="email" name="email" class = "email" placeholder="Your email..." required>
+                    </div>
+                    
+                    <div class = "col-1">
+                        <label class = "grading">Grade this website:</label>
+                    </div>
+
+                    <!--Ratings-->
+                    <div class = "col-2">
+                        <div class = "feedbackbox">
+                            <div class = "emoji">
+                                <div id = "emoji">
+                                    <img src = "poor.png">
+                                    <img src = "bad.png">
+                                    <img src = "okay.png">
+                                    <img src = "good.png">
+                                    <img src = "excellent.png">
+                                </div>   
+                            </div>
+                            <div class = "rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        
+                        </div>
+                    </div>
+        
+    
+                    <!-- Creates a textbox for users to add additional comments-->
+                    <div class = "comments">
+                        <div class = "col-1">
+                            <label for="subject">Additional Comments:</label>
+                        </div>
+    
+                        <div class = "col-2">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                    </div>
+    
+                    <!--Submit Button-->
+                    <div class = "submit">
+                        <input type="submit" value="Submit">
+                    </div>
+
+
+                </div>
             </form>
           </div>
     </section>
 
 
 
-    <form>
-        
-    
-        <!-- Creates the slider -->
-        <section class = "Slider">
-            <h3 class = "sliderinfo">How much did you like this website?</h3>
-            <p class = "slidernot">Bad</p>
-            <p class = "slideryes">Good</p>
-            <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider">
-            </div>
-        </section>
-    
-        <!-- Creates the checkbox table -->
-        <section class = "Checkbox">
-            <table>
-            <tr>
-                <td><input type="checkbox" id="tableone" value="one"></td>
-                <td><p>Content and layout Design was enjoyable</p></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" id="tabletwo" value="two"></td>
-                <td><p>The colours used were pleasing</p></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" id="tablethree" value="three"></td>
-                <td><p>I have learned something new</p></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" id="tablefour" value="four"></td>
-                <td><p>I want to apply to Singapore Polytechnic</p></td>
-            </tr>
-            </table>
-        </section>
-    
-        
-    
-        </form>
+
+    <script>
+        var stars = document.getElementsByClassName("fas");
+        var emoji = document.getElementById("emoji");
+
+            stars[0].onclick = function(){
+                stars[0].style.color = "#ffd93b";
+                stars[1].style.color = "#e4e4e4";
+                stars[2].style.color = "#e4e4e4";
+                stars[3].style.color = "#e4e4e4";
+                stars[4].style.color = "#e4e4e4";
+                emoji.style.transform = "translateX(0)"
+            }
+
+            stars[1].onclick = function(){
+                stars[0].style.color = "#ffd93b";
+                stars[1].style.color = "#ffd93b";
+                stars[2].style.color = "#e4e4e4";
+                stars[3].style.color = "#e4e4e4";
+                stars[4].style.color = "#e4e4e4";
+                emoji.style.transform = "translateX(-100px)"
+            }
+
+            stars[2].onclick = function(){
+                stars[0].style.color = "#ffd93b";
+                stars[1].style.color = "#ffd93b";
+                stars[2].style.color = "#ffd93b";
+                stars[3].style.color = "#e4e4e4";
+                stars[4].style.color = "#e4e4e4";
+                emoji.style.transform = "translateX(-200px)"
+            }
+
+            stars[3].onclick = function(){
+                stars[0].style.color = "#ffd93b";
+                stars[1].style.color = "#ffd93b";
+                stars[2].style.color = "#ffd93b";
+                stars[3].style.color = "#ffd93b";
+                stars[4].style.color = "#e4e4e4";
+                emoji.style.transform = "translateX(-300px)"
+            }
+
+            stars[4].onclick = function(){
+                stars[0].style.color = "#ffd93b";
+                stars[1].style.color = "#ffd93b";
+                stars[2].style.color = "#ffd93b";
+                stars[3].style.color = "#ffd93b";
+                stars[4].style.color = "#ffd93b";
+                emoji.style.transform = "translateX(-400px)"
+            }
+    </script>
 
   </body>
 </html>

@@ -1,16 +1,96 @@
-
-* {
+*{
+    margin: 0;
     padding: 0;
-    margin: 0; 
-    
 }
+
+body {
+    max-width: 100%;
+    max-height: 100vh; 
+    background-color:#000000;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 10%;
+    margin-bottom: 10%;;
+}
+
+.header{
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.navbar{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    display: block;
+}
+
+.navbar .menu{
+    display: none;
+}
+
+.navbar .icons a{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:#FF7200;
+    font-size: 30px;
+}
+
+.navbar .icons a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #FF7200;
+    display: block;
+    margin: auto;
+    transition: 1.0s;
+    margin-top: 3px;
+}
+
+.navbar .icons a:hover:after{
+    width: 100%;
+} 
+
+
+
+.navbar .titles a{
+    float: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FF7200;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.navbar .titles a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #FF7200;
+    display: block;
+    margin: auto;
+    transition: 1.0s;
+    margin-top: 3px;
+}
+
+.navbar .titles a:hover:after{
+    width: 100%;
+} 
 
 
 section{
     margin-top: 50px;
     margin-bottom: 50px;
     box-sizing: border-box;
-    background-color: aqua;
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -31,28 +111,30 @@ section{
 .feedback {
     background-image: url("background1.png");
     background-position: center;
-    width: 100%;
-    height: 700px;
-    padding: 50px;
+    background-size: cover;
+    padding: 100px;
 }
 
 .feedback h3{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
     width: auto;
     font-size: 30px;
     font-weight: 500;
     font-family: 'Boogaloo', cursive;
     text-align: center;
+    color: #FF7200;
 }
 
   
 input[type=text], select, textarea {
     width: 80%;
     padding: 12px;
-    border: 2px solid #b3b3b3;
+    border: 2px solid #FFFFFF;
     border-radius: 4px;
     resize: vertical;
+    background-color: rgba(0,0,0,0.5);
+    color: #FF7200;
 }
   
 
@@ -76,23 +158,27 @@ input[type=submit]:hover {
 
 label{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Boogaloo', cursive;
     text-align: center;
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FF7200;
+    padding: 3px;
+    background: rgba(0,0,0,0.5);
 }
  
   
 .col-1 {
     float: left;
     width: 25%;
-    margin-top: 6px;
+    margin-top: 8px;
 }
   
 .col-2 {
     float: left;
     width: 75%;
-    margin-top: 6px;
+    margin-top: 2px;
 }
   
 /* Clear floats after the columns */
@@ -102,7 +188,46 @@ label{
     clear: both;
 }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.feedbackbox {
+    border-radius: 4px;
+    width: 62.5%;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.emoji img{
+    width: 80px;
+    margin: 0 10px;
+}
+
+#emoji{
+    display: flex;
+    align-items: center;
+    transform: translateX(-400px);
+    transition: 0.4s;
+}
+
+.rating .fas{
+    font-size: 40px;
+    color: #e4e4e4;
+    cursor: pointer;
+
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
