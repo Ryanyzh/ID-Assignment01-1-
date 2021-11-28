@@ -88,16 +88,13 @@ section{
 
 
 .tickets{
-    display: flex;
-    width: 90%;
-    align-items: center;
-    text-align: center;
-    background-color: #c4c4c4;
+    display: inline-block;
+    max-width: 100%;
+    background-color: transparent;
     background-size: cover;
     background-position: center;
     margin-top: 10%;
     padding: 0px;
-    left: 5%;
     position: relative;
     box-sizing: border-box;
 }
@@ -109,71 +106,63 @@ section{
 .tickets ul li{
     list-style: none;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     display: flex;
-    justify-content: center;
+    align-content: center;
 }
 
 
 .leftbox{
-    padding-left: 0px;
     flex-basis: 60%;
     background-color: bisque;
 }
 
 .leftbox img{
     position: relative;
-    height: 400px;
-    width: auto;
-    float: right;
-    top: 3.5%;
+    height: 450px;
+    width: 100%;
 }
 
 .rightbox{
-    padding: 0;
     flex-basis: 40%;
-    height: 400px;
-    background-color: aquamarine;
-    position: relative;
-    top: 14px;
+    height: 450px;
+    background-color: #FF7200;
 }
 
 
 .rightbox h3{
-    position: relative;
-    width: 100%;
-    top: 13%;
-    left: 5%;
+    text-transform: uppercase;
+    margin: 30px 0px 30px 30px ;
+    width: auto;
     text-align: left;
-    color: #FF7200;
-    font-size: 23px;
-    line-height: 50px;
+    color: #000000;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 600;
     font-family: 'Boogaloo', cursive;
-    line-height: 35px;
-    align-items: center;
+    text-align: left;
 }
 
 .button{
-    width: 340px;
+    width: 90%;
+    position: relative;
+    bottom: -20px;
     display: inline-block;
     text-decoration: none;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    padding: 15px 30px;
-    font-size: 20px;
+    color: #000000;
+    border: 2px solid aqua;
+    padding: 10px 30px;
+    font-size: 40px;
     background: transparent;
-    position: relative;
-    right: -200px;
-    top: -25%;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    transform: rotate(270deg);
-    margin-bottom: 3000px;
+    text-align: center;
+    font-weight: 700;
 }
 
 .button:hover{
-    border: 1px solid #FF7200;
-    background-color: #FF7200;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FF7200;
     transition: 1.0s;
 }
 
