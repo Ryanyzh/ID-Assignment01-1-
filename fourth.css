@@ -140,13 +140,12 @@ section{
     line-height: 40px;
     font-weight: 600;
     font-family: 'Boogaloo', cursive;
-    text-align: left;
 }
 
 .button{
     width: 90%;
     position: relative;
-    bottom: -20px;
+    bottom: -15px;
     display: inline-block;
     text-decoration: none;
     color: #000000;
