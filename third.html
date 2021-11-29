@@ -80,35 +80,35 @@
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/RyUluCWaHzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">08. IDK 01</h3>  
+                    <h3 class="title">08. SHORTS 01</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/2jFN2TYTlwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">09. IDK 02</h3>  
+                    <h3 class="title">09. SHORTS 02</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/gVmJQXW_RIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">10. IDK 03</h3>  
+                    <h3 class="title">10. SHORTS 03</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/IN8oR143M-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">11. IDK 04</h3>  
+                    <h3 class="title">11. SHORTS 04</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/7ruvulBPCv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">12. IDK 05</h3>  
+                    <h3 class="title">12. SHORTS 05</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/wzcPcVAAj3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">13. IDK 06</h3>  
+                    <h3 class="title">13. SHORTS 06</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/5I4DvAgcMKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">14. IDK 07</h3>  
+                    <h3 class="title">14. SHORTS 07</h3>  
                 </div>
                 <div class="vid">
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/vW-vMKXoAXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="title">15. IDK 08</h3>  
+                    <h3 class="title">15. SHORTS 08</h3>  
                 </div>
                 
                 
@@ -127,16 +127,16 @@
 
       
     <script>
-        let listVideo = document.querySelectorAll('.videolist .vid');
+        let listVideo = document.querySelectorAll('.video-list .vid');
         let mainVideo = document.querySelector('.main-video iframe');
-        let title = document.querySelectorAll('.main-video .title');
+        let title = document.querySelector('.main-video .title');
+        console.log(listVideo);
         listVideo.forEach(video =>{
             video.onclick = () => {
                 listVideo.forEach(vid => vid.classList.remove('active'));
                 video.classList.add('active');
-                if(video.classList.add('active')){
+                if(video.classList.contains('active')){
                     let src = video.children[0].getAttribute('src');
-                    console.log("abcd");
                     mainVideo.src = src;
                     let text = video.children[1].innerHTML;
                     title.innerHTML = text;

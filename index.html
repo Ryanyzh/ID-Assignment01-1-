@@ -30,8 +30,9 @@
             <a class = "active" href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
             <a class = "active" href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
             <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+            <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
         </nav>
-        <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
+        
     </section>
 
     <!--MAIN TITLE-->
@@ -44,7 +45,7 @@
     <h2 class = "tired">Brief description</h2>
     <section class = "information">
         <div class = "col-left">
-            <img src = "https://lastfm.freetls.fastly.net/i/u/770x0/d645cfa73e13eb828349968ec2d0e234.jpg" alt="">
+            <img src = "page-one.webp" alt="">
         </div>
         <div class = "col-right">
             <p>Imagine Dragons is an alternative-rock band from Las Vegas, Nevada.
@@ -62,47 +63,47 @@
         <div class = "container-gallery">
             <div class = "mySlides">
                 <div class = "numbertext">1/9</div>
-                <img src = "https://www.filepicker.io/api/file/Rf0PQ6d7SWma5l6e9Jbk/convert?cache=true&crop=0%2C170%2C1500%2C750&crop_first=true&quality=90&w=1920" alt = "Image 01">
+                <img src = "01.jpg" alt = "Image 01">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">2/9</div>
-                <img src = "https://mlzzztbq0fer.i.optimole.com/vjR4xuE.HOTB~474a6/w:970/h:350/q:55/rt:fill/g:sm/https://www.ticketnews.com/wp-content/uploads/imagine-dragons-e1631110741590.jpg" alt = "Image 02">
+                <img src = "02.jpg" alt = "Image 02">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">3/9</div>
-                <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F09%2Fgettyimages-699356866-2000.jpg" alt = "Image 03">
+                <img src = "03.webp" alt = "Image 03">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">4/9</div>
-                <img src = "https://i.iheart.com/v3/re/new_assets/607f5114a8c4cb886e8c21c0?ops=contain(1480,0)" alt = "Image 04">
+                <img src = "04.webp" alt = "Image 04">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">5/9</div>
-                <img src = "https://m.media-amazon.com/images/I/81zjK4Z1zyL._AC_SL1500_.jpg" alt = "Image 05">
+                <img src = "05.jpg" alt = "Image 05">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">6/9</div>
-                <img src = "https://martech.org/wp-content/uploads/2015/02/463035486.jpg" alt = "Image 06">
+                <img src = "06.jpg" alt = "Image 06">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">7/9</div>
-                <img src = "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_26/650336/150626-imagine-dragons-tz.jpg" alt = "Image 07">
+                <img src = "07.jpg" alt = "Image 07">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">8/9</div>
-                <img src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/01/17/imagine-dragons-02.jpg?width=982&height=726&auto=webp&quality=75" alt = "Image 08">
+                <img src = "08.jpg" alt = "Image 08">
             </div>
 
             <div class = "mySlides">
                 <div class = "numbertext">9/9</div>
-                <img src = "https://s3.amazonaws.com/heights-photos/wp-content/uploads/2018/11/03133629/imagine-dragons-online.jpg" alt = "Image 09">
+                <img src = "09.jpg" alt = "Image 09">
             </div>
 
 
@@ -207,10 +208,11 @@
 
         function myFunction(){
             var x = document.getElementById("thenavbar");
-            if (x.className == "navbar"){
-                x.className += "responsive";
+            if (x.classList.contains("title")){
+                x.classList.add("responsive");
+                console.log("Hi there")
             }else{
-                x.className = "navbar"
+                x.classList.add("title");
             }
     
         }
