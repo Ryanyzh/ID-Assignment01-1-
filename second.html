@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Second Page</title>
-    <link href="second.css" rel="stylesheet" type="text/css" />
+    <title>History</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,8 @@
     </section>
 
 
-    <h2>History of Imagine Dragons</h2>
+    <!--SECOND PAGE - HISTORY OF IMAGINE DRAGONS-->
+    <h2 class = "shag">History of Imagine Dragons</h2>
     <section class = "stuff">
       <div class = "hi-story">
         <button class = "collapsible">Early Years(2008-2010)</button>
@@ -196,9 +197,13 @@
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.maxHeight){
+          this.style.marginBottom = "10%";
           content.style.maxHeight = null;
+          content.style.marginBottom = "0%";
         } else {
+          this.style.marginBottom = "0%";
           content.style.maxHeight = content.scrollHeight + "px";
+          content.style.marginBottom = "10%";
         } 
       });
     }
