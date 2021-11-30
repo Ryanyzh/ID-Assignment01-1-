@@ -8,7 +8,7 @@ In this website, we introduced the band, Imagine Dragons. The purpose of this we
 
 There is 5 pages altogether and more details is explained later. All pages contain a navigation bar with the 5 pages included.
 
-In the first page, we have the huge band title with a cool guitar background. 
+In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
 
 In the second page, we 
  
@@ -66,11 +66,24 @@ If this section grows too long, you may want to split it off into a separate fil
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
+    - Page One (top to bottom):
+        - hi
+        - hi
+        - hi
+    - Page Two (top to bottom):
+        - hi
+        - hi
+        - hi
+    - Page Three (top to bottom):
+        - hi
+        - hi
+        - hi
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the following sites:
+    - 
 
 
 
