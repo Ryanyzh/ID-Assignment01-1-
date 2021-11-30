@@ -17,23 +17,22 @@
   <body>
     <!--NAVIGATION BAR-->
     <section class = "navbar" id = "thenavbar">
-        <nav class = "icons">
-            <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a>
-            <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
-        </nav>
 
-        <nav class = "titles">
-            <a class = "active" href = "index.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
-            <a class = "active" href = "fourth.css"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
-            <a class = "active" href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
-            <a class = "active" href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
-            <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
-            <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
-        </nav>
+        <a class = "active" href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+        <a href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
+        <a href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
+        <a href = "fourth.html"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
+        <a href = "new.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
         
+        <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>      
+
+        <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
+
     </section>
+    
 
     <!--MAIN TITLE-->
     <section class = "header">
@@ -208,11 +207,10 @@
 
         function myFunction(){
             var x = document.getElementById("thenavbar");
-            if (x.classList.contains("title")){
-                x.classList.add("responsive");
-                console.log("Hi there")
+            if (x.className === "navbar"){
+                x.className += "responsive";
             }else{
-                x.classList.add("title");
+                x.className = "navbar";
             }
     
         }

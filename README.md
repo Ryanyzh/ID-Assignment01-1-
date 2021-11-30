@@ -2,11 +2,15 @@
 hi there:)
 
 
-# Your Project's Name
+# Ryan's Band Website - Imagine Dragons 
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+In this website, we introduced the band, Imagine Dragons. The purpose of this website allows the users to learn more about the band's history, undertsand more about the band members, admire the photos collated from the concerts, listen and watch the band music video, book concert tickets for their events and lastly provide feedback for the website. 
 
-Essentially, this part is your sales pitch.
+There is 5 pages altogether and more details is explained later. All pages contain a navigation bar with the 5 pages included.
+
+In the first page, we have the huge band title with a cool guitar background. 
+
+In the second page, we 
  
 ## Design Process
  
