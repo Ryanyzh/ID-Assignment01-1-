@@ -432,6 +432,7 @@ body {
 
 
 /*...................................................PAGE ONE............................................*/
+
 /* MAIN IMAGINE DRAGON TITLE*/
 .header{
     background-image: url("background2.png");
@@ -440,15 +441,15 @@ body {
     width: 100%;
     height: 500px;
     display: inline-block;
-    
 }
 .header h1{
-    font-size: 150px;
+    font-size: 180px;
     font-weight: 800;
-    line-height: 150px;
+    line-height: 180px;
     text-align: center;
     font-family: 'Londrina Sketch', cursive;
     color: #FFFFFF;
+    margin-top: 70px;
 }
 
 /* SUB-INFO */
@@ -490,32 +491,30 @@ body {
     padding-right: 10px;
 }
 .col-right p{
-    width: auto;
+    width: 90%;
     text-align: justify;
     color: #000000;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 35px;
+    line-height: 35px;
     font-family: 'Boogaloo', cursive;
     padding: 20px;
-    padding-right: 50px;
     float: left;
     position: relative;
     top: 75px;
 }
 .button-first{
+    display: inline-block;
     text-align: center;
-    font-size: 30px;
-    width: 200px;
-    height: 100px;
-    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    width: 300px;
+    max-height: 60px;
     text-decoration: none;
     color: #000000;
     border: 5px solid #000000;
     padding: 15px 30px;
-    font-size: 20px;
     background: transparent;
     position: relative;
-    align-items: center;
     left: -45%;
     bottom: -80%;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -525,7 +524,6 @@ body {
     border: 5px solid #000000;
     background-color: #000000;
     color: #FF7200;
-    transition: 1.0s;
 }
 
 
@@ -576,7 +574,7 @@ body {
 }
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px;
 }
 .prev:hover,
 .next:hover {
@@ -594,12 +592,12 @@ body {
 .caption {
     text-align: center;
     background-color: #FF7200;
-    padding: 2px 16px;
+    padding: 10px 20px;
     font-size: 15px;
     font-weight: 500;
     font-family: 'Boogaloo', cursive;
     color:#000000;
-    height: 20px;
+    height: auto;
 }
   
 .row-gallery:after {
@@ -710,6 +708,7 @@ body {
     position: relative;
     left: 40%;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -796,6 +795,7 @@ body {
     display: inline-block;
     color: #000000;
     font-size: 60px;
+    font-weight: 500;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -923,6 +923,7 @@ body {
     padding-bottom: 30px;
     font-family: 'Boogaloo', cursive;
     text-transform: uppercase;
+    font-weight: 500;
 }
 .tickets{
     display: inline-block;
@@ -963,7 +964,7 @@ body {
 .rightbox{
     flex-basis: 40%;
     height: 450px;
-    background-color: #FF7200;
+    background-color: rgba(255,114,0,1.0);
 }
 
 
@@ -1150,7 +1151,7 @@ label{
 /*...................................................COMMON FOOTER............................................*/
 .footer {
     max-width: 100%;
-    height: 100px;
+    height: auto;
     display: block;
     background-color: #4b4b4b;
     color: #FF7200;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, inital-scale = 1.0">
     <title>Imagine Dragons Webpage</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style2.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Dosis&family=Londrina+Sketch&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
 
 
 
-  <body>
+  <body class = "page-one">
     <!--NAVIGATION BAR-->
     <section class = "navbar" id = "thenavbar">
 
@@ -22,7 +23,7 @@
         <a href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
         <a href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
         <a href = "fourth.html"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
-        <a href = "new.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
+        <a href = "fifth.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
         
         <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
         <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
@@ -208,20 +209,12 @@
         function myFunction(){
             var x = document.getElementById("thenavbar");
             if (x.className === "navbar"){
-                x.className += "responsive";
+                x.className += " responsive";
             }else{
                 x.className = "navbar";
             }
     
         }
     </script>
-
-
-    <section class = "container-five"> 
-    <div class = "foot">
-      <p>Author: Ryan Yong&nbsp;&nbsp;-_-&nbsp;&nbsp;Interactive Development Assignment 1 Project.<br>Hope you would enjoy! See you again!</p>
-    </div>
-    </section>
-
   </body>
 </html>
