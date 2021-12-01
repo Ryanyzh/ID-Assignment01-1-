@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Feedback</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="style2.css" rel="stylesheet" type="text/css" />
@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Dosis&family=Londrina+Sketch&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/59128dae28.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
   </head>
 
 
@@ -19,18 +18,22 @@
     <!--NAVIGATION BAR-->
     <section class = "navbar" id = "thenavbar">
 
-        <a href = "index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
-        <a href = "second.html"><i class="fas fa-info"></i>&nbsp;&nbsp;HISTORY</a>
-        <a href = "third.html"><i class="fas fa-music"></i>&nbsp;&nbsp;PLAYLIST</a>
-        <a href = "fourth.html"><i class="fas fa-calendar-week"></i>&nbsp;&nbsp;EVENTS</a>
-        <a class = "active" href = "fifth.html"><i class="fas fa-comments"></i>&nbsp;&nbsp;FEEDBACK</a>
+        <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <a href = "index.html"><i class="fas fa-home"></i> HOME</a>
+        <a href = "second.html"><i class="fas fa-info"></i> HISTORY</a>
+        <a href = "third.html"><i class="fas fa-music"></i> PLAYLIST</a>
+        <a href = "fourth.html"><i class="fas fa-calendar-week"></i> EVENTS</a>
+        <a class = "active" href = "fifth.html"><i class="fas fa-comments"></i> FEEDBACK</a>
         
         <a href="https://www.instagram.com/imaginedragons/"><i class="fab fa-instagram"></i></a>
         <a href="https://www.facebook.com/ImagineDragons"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"><i class="fab fa-youtube"></i></a>
         <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>      
 
-        <a href = "javascript:void(0);" class = "menu" onlick = "myFunction()"><i class="fas fa-bars"></i></a>
+        
 
     </section>
 
@@ -131,6 +134,7 @@
         var emoji = document.getElementById("emoji");
 
             stars[0].onclick = function(){
+                console.log("hi");
                 stars[0].style.color = "#ffd93b";
                 stars[1].style.color = "#e4e4e4";
                 stars[2].style.color = "#e4e4e4";
@@ -140,6 +144,7 @@
             }
 
             stars[1].onclick = function(){
+                console.log("hi2");
                 stars[0].style.color = "#ffd93b";
                 stars[1].style.color = "#ffd93b";
                 stars[2].style.color = "#e4e4e4";
@@ -149,6 +154,7 @@
             }
 
             stars[2].onclick = function(){
+                console.log("hi3");
                 stars[0].style.color = "#ffd93b";
                 stars[1].style.color = "#ffd93b";
                 stars[2].style.color = "#ffd93b";
@@ -167,6 +173,7 @@
             }
 
             stars[4].onclick = function(){
+                console.log("hi4");
                 stars[0].style.color = "#ffd93b";
                 stars[1].style.color = "#ffd93b";
                 stars[2].style.color = "#ffd93b";
@@ -177,15 +184,15 @@
 
 
 
-        function myFunction(){
+        function myFunction() {
             var x = document.getElementById("thenavbar");
-            if (x.className === "navbar"){
+            if (x.className === "navbar") {
                 x.className += " responsive";
-            }else{
+            } else {
                 x.className = "navbar";
             }
-    
         }
+
     </script>
 
   </body>
