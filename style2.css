@@ -6,22 +6,64 @@
 @media screen and (max-width : 600px){
     .navbar a:not(:first-child) {display:none;}
     .navbar a.menu{
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+        font-size:15px;
+        padding: 8px 15px;
         float: left;
+        left: 0px;
         display: block;
     }
 }
 @media screen and (max-width : 600px){
     .navbar.responsive {position: relative;}
     .navbar.responsive .menu{
-        position: absolute;
-        right: 0;
-        top: 0;
+        color:#FFFFFF;
+        background-color: #000000;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+        font-size:15px;
+        padding: 8px 15px;
+        float: left;
+        left: 0px;
+        display: block;
+        max-width: 15px;
+        position: relative;
+        top: 5px;
+        margin-bottom: 0;
+    }
+    .navbar{
+        margin-bottom: 10px;
     }
     .navbar.responsive a{
+        width: 50%;
         float: none;
+        position: relative;
+        top: 15px;
+        left: 30%;
         display: block;
         text-align: center;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+        padding: 10px 20px;
+        color: #FF7200;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
     }
+    .navbar a:hover{
+        background-color: #4b4b4b;
+        color:#FFFFFF;
+    }
+    .navbar a.active{
+        background-color: #FF7200;
+        color: #000000;
+    } 
+    
 }
 
 

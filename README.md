@@ -11,8 +11,17 @@ There is 5 pages altogether and more details is explained later. All pages conta
 In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
 
 In the second page, we 
+
+
+
+
+One or two paragraphs providing an overview of your project. Tell us about your project.
+
+Essentially, this part is your sales pitch.
  
 ## Design Process
+
+The content of this website is inspired from here https://i.pinimg.com/236x/ad/1d/fa/ad1dfa9003af8ed1e08491e4f642e29e.jpg . I decided to apply what we have learnt during lessons such as forms, media queries, 
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -24,8 +33,8 @@ These files should themselves either be included as a pdf file in the project it
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In Page One:
+  - 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -114,170 +123,3 @@ https://i.pinimg.com/originals/70/aa/fb/70aafb95d22abac307926d5baf48ba2f.jpg
 
 
 
-@media (max-width: 600px){
-    .text-box img{
-        width: 50%;
-        height: auto;
-        max-width: 500px;
-        max-height: 500px;
-        margin: 20px 0 5px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background-color: #c6cad2;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        left: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1.0s;
-    }
-    nav .fa{
-        display: block;
-        color: #FFFFFF;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul{
-        padding: 30px;
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.feedback{
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.5);
-    padding: 20px;
-}
-
-.name, .email, .website {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  .name:focus , .email:focus, .website:focus {
-    background-color: #c4c4c4;
-  }
-  
-  .submit {
-    width: 100%;
-    background-color: transparent;
-    color: #000000;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .submit:hover {
-    background-color: #FF7200;
-  }
-
-
-
-
-
-
-
-
- * {
-  box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
-</head>
-<body>
