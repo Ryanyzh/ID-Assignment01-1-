@@ -1338,3 +1338,599 @@ label{
     line-height: 30px;
     text-align: center;
 }
+
+
+
+/* .........................................MEDIA QUERY STARTS HERE....................................................*/
+
+
+
+/* NAVIGATION BAR */
+@media screen and (max-width : 600px){
+    .navbar a:not(:first-child) {display:none;}
+    .navbar{
+        display: inline-block;
+    }
+    .navbar a.menu{
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-bottom: 1%;
+        position: relative;
+        float: left;
+        color: #FFFFFF;
+        font-size:15px;
+        padding: 10px 15px;
+        display: block;
+    }
+}
+@media screen and (max-width : 600px){
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .menu{
+        color:#FFFFFF;
+        background-color: #000000;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-size:15px;
+        padding: 8px 15px;
+        float: left;
+        left: 0px;
+        display: block;
+        max-width: 15px;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .navbar{
+        margin-bottom: 20px;
+    }
+    .navbar.responsive a{
+        width: 35%;
+        float: right;
+        position: relative;
+        top: 15px;
+        right: 5%;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        color: #FF7200;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+}
+
+
+
+
+/* PAGE ONE */
+@media screen and (max-width: 600px) {
+    .page-one{
+        margin: auto;
+        width: 100%;
+    }
+    .header{
+        margin-top: 10%;
+        min-width: 100%;
+        height: 300px;
+        background-position: cover;
+    }
+    .header h1{
+        font-size: 90px;
+        font-weight: 800;
+        line-height: 100px;
+        text-align: center;
+    }
+    
+    .tired{
+        font-size: 40px;
+        margin: 30px;
+    }
+    .information{
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+        background-color: #FF7200;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .col-left{
+        flex-wrap: wrap;
+        flex: 1;
+        width: 100%;
+        display: block;
+    }
+    .col-left img{
+        width: 95%;
+        height: auto;
+        float: left;
+        position: relative;
+        left: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .col-right{
+        flex-wrap: wrap;
+        flex: 1;
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .col-right p{
+        width: 85%;
+        float: left;
+        position: relative;
+        left: -2%;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 20px;
+        top: 20px;
+    }
+    .button-first{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        width: 140px;
+        height: auto;
+        float: left;
+        left: 22%;
+        padding: 8px 15px;
+        position: relative;
+        border: 2px solid #000000;
+    }
+
+    .button-first:hover{
+        border: 2px solid #000000;
+    }
+    
+    .gallery h2{
+        font-size: 40px;
+        margin: 30px;
+    }
+    .prev,
+    .next {
+        top: 40%;
+        width: 30px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .numbertext {
+        font-size: 10px;
+    }
+    .caption {
+        text-align: center;
+        background-color: #FF7200;
+        padding: 5px 20px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+  }
+
+
+
+
+/* PAGE TWO - HISTORY */
+@media screen and (max-width: 600px){
+    .page-two{
+        margin: auto;
+        width: 100%;
+    }
+
+    .shag{
+        margin-top: 10%;
+        display: inline-block;
+        min-width: 100%;
+        font-size: 35px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .stuff{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hi-story{
+        flex: 1;
+        width: 88%;
+        margin: auto;
+    }
+    
+    .collapsible{
+        padding: 20px;
+        width: 100%;
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 10%;
+    }
+    
+    
+    .content{
+        overflow: hidden;
+        transition: max-height 0.2 ease-out;
+        background-color: orange;
+        color: black;
+    }
+    
+    .content p{
+        padding: 8px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .content a{
+        max-width: 100px ;
+        border: 2px solid #000000;
+        padding: 5px 15px;
+        font-size: 10px;
+        left: 25%;
+    }
+
+    .right-col{
+        position: relative;
+        flex: 1;
+        width: 100%;
+    }
+    
+    .image {
+        margin: auto;
+        margin-bottom: 35px;
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+    
+    .overlay{
+        left: 10%;
+        width: 300px;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+    }
+    
+    .text{
+        width: 300px;
+        font-size: 25px;
+        left: 60%;
+        line-height: 60px;
+    }
+    
+}
+
+
+
+/* PAGE THREE - PLAYLIST */
+@media screen and (max-width:600px){
+    .page-three{
+        margin: auto;
+        width: 100%;
+    }
+    .box{
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+    .gist{
+        margin-top: 10%;
+        min-width: 100%;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sub-body{
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        background-color:transparent;
+        top: 10%;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    
+    .box .main-video{
+        border: 2px solid #FFFFFF;
+    }
+
+    .box .main-video iframe{
+        width: 100%;
+        border-radius: 5px;
+
+    }
+        
+    .box .main-video .title{
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    
+    .box .video-list{
+        border: 2px solid #FFFFFF;
+        height: 400px;
+    }
+
+    .box .video-list .vid iframe{
+        width: 70px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .box .video-list .vid{
+        border: 2px solid #FF7200;
+    }
+    
+    .box .video-list .vid .title{
+        font-size: 20px;
+    }
+
+    .page-three.social-media{
+        position: relative;
+        bottom: 990px;
+        margin-top: 550px;
+    }
+    .page-three .footer{
+        margin-top: 320px;
+    }
+}
+
+
+/* PAGE FOUR - EVENTS */
+@media screen and (max-width: 600px) {
+    .page-four{
+        width: 100%;
+        margin: auto;
+    }
+
+    .exhausted{
+        margin-top: 10%;
+        min-width: 100%;
+        font-size: 40px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tickets{
+        display: inline-block;
+        max-width: 100%;
+        background-color: transparent;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .tickets ul{
+        position: relative;
+    }
+    
+    .tickets ul li{
+        margin-top: 15%;
+        list-style: none;
+        height: 450px;
+        margin-bottom: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    
+    .leftbox{
+        margin: auto;
+        flex: 1;
+        width: 100%;
+    }
+    
+    .leftbox img{
+        position: absolute;
+        height: auto;
+        width: 100%;
+    }
+    
+    .rightbox{
+        margin-top: 50px;
+        flex: 1;
+        width: 100%;
+        height: 500px;
+    }
+    
+    
+    .rightbox h3{
+        position: relative;
+        top: 7%;
+        font-size: 20px;
+        line-height: 5px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    
+    .button{
+        width: 20%;
+        left: 35%;
+        border: 2px solid black;
+        padding: 5px 15px;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .button:hover{
+        border: 2px solid #000000;
+    }
+}
+
+
+
+
+
+
+/* FEEDBACK */
+@media screen and (max-width: 600px) {
+    .page-five{
+        width: 100%;
+        margin: auto;
+    }
+
+    .thanks{
+        margin-top: 10%;
+        margin: auto;
+        display: inline-block;
+        max-width: 100%;
+        font-size: 13px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    
+    .feedback {
+        max-width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 5px;
+    }
+    
+    .boxing{
+        margin-top:10px;
+        margin-bottom:10px;
+        padding: 20px;
+        width: 80%;
+        height: auto;
+        position: relative;
+        left: 5%;
+    }
+
+    .col-1 {
+        float: left;
+        width: 100%;
+        flex: 1;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+      
+    .col-2 {
+        float: left;
+        width: 100%;
+        flex: 1;
+        margin-bottom: 15px;
+    }
+      
+    input[type=text], select, textarea {
+        width: 90%;
+        padding: 12px;
+    }
+    
+      
+    input[type=submit] {
+        margin-top: 30px;
+        width: 30%;
+        font-weight: 500;
+        font-size: 15px;
+        border: 2px solid #000000;
+        padding: 12px 15px;
+        position: relative;
+        left: 35%;
+    }
+      
+    input[type=submit]:hover {
+        border: 2px solid #FF7200;
+    }
+    
+    label{
+        font-size: 18px;
+        font-weight: 400;
+        border: 2px solid #FFFFFF;
+        border-radius: 4px;
+        color: #000000;
+        padding: 6px;
+        background: rgba(255,255,255,0.5);
+    }
+      
+    .feedbackbox {
+        border-radius: 4px;
+        width: 82%;
+        border: 2px solid #FFFFFF;
+        padding: 25px 25px;
+    }
+    
+    .emoji{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    
+    .emoji img{
+        width: 80px;
+        margin: 0 10px;
+    }
+    
+    #emoji{
+        display: flex;
+        align-items: center;
+        transform: translateX(-400px);
+        transition: 0.4s;
+    }
+    
+    .rating .fas{
+        font-size: 20px;
+        color: #e4e4e4;
+        cursor: pointer;
+    
+    }
+}
+
+/* SOCIAL MEDIA */
+@media screen and (max-width: 600px) {
+    .social-media{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: -10;
+        background-color: #4b4b4b;
+        margin-bottom: 30px;
+    }
+    
+    .icon-list {
+        width: 100%;
+        max-width: 50rem;
+        padding: 0 0.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .icon-link {  
+        display: inline-flex;
+        font-size: 1rem;  
+        text-decoration: none;  
+        color: #FFFFFF;
+        width: 3rem;
+        height: 3rem;   
+        transition: .5s linear;
+        position: relative;
+        z-index: 1;
+        margin: auto
+    }
+    
+    .icon-link::before {  
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .icon-link:hover::before {  
+        transform: scale(0.75);
+    }
+}
+
+
+
+/* FOOTER */
+@media screen and (max-width : 600px){  
+    .footer h3{
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
