@@ -662,6 +662,7 @@ body {
     font-family: 'Boogaloo', cursive;
     font-weight: 600;
     margin-bottom: 10%;
+    
 }
 
 .collapsible:hover{
@@ -676,9 +677,10 @@ body {
     margin-left: 5px;
 }
 
-.active:after{
+.collapsible .active:after{
     content: "\2212";
 }
+
 
 .content{
     padding: 0 20px;
