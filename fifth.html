@@ -133,7 +133,7 @@
     
                     <!--Submit Button-->
                     <div class = "submit">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" onclick="submitForm()">
                     </div>
 
 
@@ -149,19 +149,19 @@
         <h2 class = "nil">.</h2>
         <ul class = "icon-list">
             <li class = "icon-item">
-                <a href="https://www.instagram.com/imaginedragons/" class="icon-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/imaginedragons/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
             </li>
 
             <li class = "icon-item">
-                <a href="https://www.facebook.com/ImagineDragons" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/ImagineDragons" target="_blank" class="icon-link"><i class="fab fa-facebook-f"></i></a>
             </li>
 
             <li class = "icon-item">
-                <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" class="icon-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" target="_blank" class="icon-link"><i class="fab fa-youtube"></i></a>
             </li>
 
             <li class = "icon-item">
-                <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="icon-link">
+                <a href="https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-link">
                     <i class="fab fa-twitter"></i>
                 </a>  
             </li>
@@ -244,6 +244,11 @@
             } else {
                 x.className = "navbar";
             }
+        }
+
+        function submitForm() {
+            alert("Form Submitted");
+            window.open("about:blank");
         }
 
     </script>
