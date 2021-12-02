@@ -5,14 +5,18 @@
 /* NAVIGATION BAR */
 @media screen and (max-width : 600px){
     .navbar a:not(:first-child) {display:none;}
+    .navbar{
+        display: inline-block;
+    }
     .navbar a.menu{
-        margin-top: 3%;
-        margin-left: 0%;
-        margin-bottom: 3%;
-        font-size:15px;
-        padding: 8px 15px;
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-bottom: 1%;
+        position: relative;
         float: left;
-        left: 0px;
+        color: #FFFFFF;
+        font-size:15px;
+        padding: 10px 15px;
         display: block;
     }
 }
@@ -22,7 +26,7 @@
         color:#FFFFFF;
         background-color: #000000;
         margin-top: 3%;
-        margin-left: 0%;
+        margin-left: 5%;
         margin-bottom: 3%;
         font-size:15px;
         padding: 8px 15px;
@@ -31,38 +35,27 @@
         display: block;
         max-width: 15px;
         position: relative;
-        top: 5px;
         margin-bottom: 0;
     }
     .navbar{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .navbar.responsive a{
-        width: 50%;
-        float: none;
+        width: 35%;
+        float: right;
         position: relative;
         top: 15px;
-        left: 30%;
+        right: 5%;
         display: block;
         text-align: center;
-        margin-left: 0;
-        margin-bottom: 0;
         margin-bottom: 5px;
-        padding: 10px 20px;
+        padding: 10px 15px;
         color: #FF7200;
         text-decoration: none;
         text-align: center;
         font-size: 15px;
         font-weight: 400;
     }
-    .navbar a:hover{
-        background-color: #4b4b4b;
-        color:#FFFFFF;
-    }
-    .navbar a.active{
-        background-color: #FF7200;
-        color: #000000;
-    } 
     
 }
 
@@ -76,6 +69,7 @@
         width: 100%;
     }
     .header{
+        margin-top: 10%;
         min-width: 100%;
         height: 300px;
         background-position: cover;
@@ -126,7 +120,7 @@
         width: 85%;
         float: left;
         position: relative;
-        left: auto;
+        left: -2%;
         font-size: 20px;
         line-height: 20px;
         padding: 20px;
@@ -140,8 +134,8 @@
         width: 140px;
         height: auto;
         float: left;
-        left: 23%;
-        padding: 10px 20px;
+        left: 22%;
+        padding: 8px 15px;
         position: relative;
         border: 2px solid #000000;
     }
@@ -184,6 +178,7 @@
     }
 
     .shag{
+        margin-top: 10%;
         display: inline-block;
         min-width: 100%;
         font-size: 35px;
@@ -206,7 +201,7 @@
     .collapsible{
         padding: 20px;
         width: 100%;
-        font-size: 25px;
+        font-size: 17px;
         font-weight: 600;
         margin-bottom: 10%;
     }
@@ -221,16 +216,16 @@
     
     .content p{
         padding: 8px;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 20px;
     }
     
     .content a{
-        width: 90px;
+        max-width: 100px ;
         border: 2px solid #000000;
-        padding: 8px 20px;
-        font-size: 15px;
-        left: 30%;
+        padding: 5px 15px;
+        font-size: 10px;
+        left: 25%;
     }
 
     .right-col{
@@ -248,7 +243,7 @@
     }
     
     .overlay{
-        left: 14%;
+        left: 10%;
         width: 300px;
         -webkit-transition: 0.5s ease;
         transition: 0.5s ease;
@@ -276,6 +271,7 @@
         grid-template-columns: 1fr;
     }
     .gist{
+        margin-top: 10%;
         min-width: 100%;
         font-size: 40px;
         padding-top: 20px;
@@ -288,10 +284,17 @@
         background-color:transparent;
         top: 10%;
         box-sizing: border-box;
+        display: inline-block;
     }
     
     .box .main-video{
         border: 2px solid #FFFFFF;
+    }
+
+    .box .main-video iframe{
+        width: 100%;
+        border-radius: 5px;
+
     }
         
     .box .main-video .title{
@@ -302,6 +305,12 @@
     .box .video-list{
         border: 2px solid #FFFFFF;
         height: 400px;
+    }
+
+    .box .video-list .vid iframe{
+        width: 70px;
+        height: 40px;
+        border-radius: 5px;
     }
 
     .box .video-list .vid{
@@ -322,6 +331,7 @@
     }
 
     .exhausted{
+        margin-top: 10%;
         min-width: 100%;
         font-size: 40px;
         margin: auto;
@@ -343,7 +353,7 @@
     .tickets ul li{
         margin-top: 15%;
         list-style: none;
-        height: 400px;
+        height: 450px;
         margin-bottom: 20%;
         display: flex;
         flex-wrap: wrap;
@@ -364,27 +374,30 @@
     }
     
     .rightbox{
-        margin: auto;
+        margin-top: 50px;
         flex: 1;
         width: 100%;
-        height: 400px;
+        height: 500px;
     }
     
     
     .rightbox h3{
         position: relative;
-        top: 30%;
+        top: 7%;
         font-size: 20px;
+        line-height: 5px;
+        font-weight: 400;
         line-height: 25px;
     }
     
     .button{
         width: 20%;
-        left: 20%;
+        left: 35%;
         border: 2px solid black;
-        padding: 10px 25px;
-        font-size: 15px;
+        padding: 5px 15px;
+        font-size: 13px;
         font-weight: 500;
+        margin-bottom: 10px;
     }
     
     .button:hover{
@@ -405,6 +418,7 @@
     }
 
     .thanks{
+        margin-top: 10%;
         margin: auto;
         display: inline-block;
         max-width: 100%;
@@ -506,14 +520,56 @@
     }
     
     .rating .fas{
-        font-size: 40px;
+        font-size: 20px;
         color: #e4e4e4;
         cursor: pointer;
     
     }
 }
 
-
+/* SOCIAL MEDIA */
+@media screen and (max-width: 600px) {
+    .social-media{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: -10;
+        background-color: #4b4b4b;
+        margin-bottom: 30px;
+    }
+    
+    .icon-list {
+        width: 100%;
+        max-width: 50rem;
+        padding: 0 0.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .icon-link {  
+        display: inline-flex;
+        font-size: 1rem;  
+        text-decoration: none;  
+        color: #FFFFFF;
+        width: 3rem;
+        height: 3rem;   
+        transition: .5s linear;
+        position: relative;
+        z-index: 1;
+        margin: auto
+    }
+    
+    .icon-link::before {  
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .icon-link:hover::before {  
+        transform: scale(0.75);
+    }
+}
 
 
 

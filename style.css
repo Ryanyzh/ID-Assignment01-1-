@@ -394,49 +394,130 @@ body {
     box-sizing: border-box;
 }
 
-/* NAVIGATION BAR */
-    
-.navbar{
-    width: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    overflow: hidden;
-    
-}
 
-.navbar a{
-    float: left;
-    display: block;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 20px 40px;
-    color: #FF7200;
-    text-decoration: none;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+/* NAVIGATION BAR */
+.navbar{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
 }
-.navbar a:hover{
-    background-color: #4b4b4b;
-    color:#FFFFFF;
-}
-.navbar a.active{
-    background-color: #FF7200;
-    color:#000000;
-} 
 
 .navbar .menu{
     display: none;
 }
+.navbar a{  
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 50px 0;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.navbar a:hover{
+    background: #FF5F1F;
+    color: #050801;
+    box-shadow: 0 0 5px #FF5F1F,
+                0 0 25px #FF5F1F,
+                0 0 50px #FF5F1F,
+                0 0 200px #FF5F1F;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.navbar a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+.navbar a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+.navbar a span{
+    position: absolute;
+    display: block;
+}
+.navbar a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#00ff7b);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.navbar a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#00ff7b);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.navbar a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#FF5F1F);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
 
+
+.navbar a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#FF5F1F);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
 
 /*...................................................PAGE ONE............................................*/
 
 /* MAIN IMAGINE DRAGON TITLE*/
 .header{
+    margin-top: 30px;
     background-image: url("background2.png");
     background-position: center;
     background-size: cover;
@@ -504,13 +585,14 @@ body {
     position: relative;
     top: 75px;
 }
+
 .button-first{
     display: inline-block;
     text-align: center;
     font-size: 25px;
     font-weight: 800;
     width: 300px;
-    max-height: 60px;
+    height: 40px;
     text-decoration: none;
     color: #000000;
     border: 5px solid #000000;
@@ -1150,6 +1232,89 @@ label{
     cursor: pointer;
 
 }
+
+/*...................................................SOCIAL MEDIA............................................*/
+
+.social-media{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -10;
+    background-color: #4b4b4b;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.icon-list {
+    width: 100%;
+    max-width: 50rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.icon-item {
+    list-style: none
+}
+  
+.icon-link {  
+    display: inline-flex;
+    font-size: 2rem;  
+    text-decoration: none;  
+    color: #FFFFFF;
+    width: 3rem;
+    height: 3rem;   
+    transition: .5s linear;
+    position: relative;
+    z-index: 1;
+    margin: auto
+}
+  
+.icon-link:hover {
+    color: #FFFFFF;
+}
+  
+.icon-link i {
+    margin: auto;    
+}
+  
+.icon-link::before {  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #000;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+}
+    
+.icon-link:hover::before {  
+    transform: scale(1.5);
+}
+  
+.icon-item:nth-child(1) a:hover:before { 
+    background: #e4405f; 
+}
+  
+.icon-item:nth-child(2) a:hover:before { 
+    background: #3b5999; 
+}
+  
+.icon-item:nth-child(3) a:hover:before { 
+    background: #cd201f; 
+}
+  
+.icon-item:nth-child(4) a:hover:before { 
+    background: #0077B5; 
+}
+
 
 
 /*...................................................COMMON FOOTER............................................*/
