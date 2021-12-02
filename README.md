@@ -4,7 +4,15 @@ hi there:)
 
 # Ryan's Band Website - Imagine Dragons 
 
-In this website, we introduced the band, Imagine Dragons. The purpose of this website allows the users to learn more about the band's history, undertsand more about the band members, admire the photos collated from the concerts, listen and watch the band music video, book concert tickets for their events and lastly provide feedback for the website. 
+Imagine Dragons an aspiring and well-known band group with the members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben Mckee. 
+
+In this assignment, a website was created for the band, Imagine Dragons. In here, fans can understand the history by albums, listen and watch their music videos, book tickets for their concert events while admiring the bands photos all in one site. Presenting to you the site......
+
+
+
+
+
+I
 
 There is 5 pages altogether and more details is explained later. All pages contain a navigation bar with the 5 pages included.
 
@@ -21,8 +29,33 @@ Essentially, this part is your sales pitch.
  
 ## Design Process
 
-The content of this website is inspired from here https://i.pinimg.com/236x/ad/1d/fa/ad1dfa9003af8ed1e08491e4f642e29e.jpg . I decided to apply what we have learnt during lessons such as forms, media queries, 
+The content of this website is inspired from here https://i.pinimg.com/236x/ad/1d/fa/ad1dfa9003af8ed1e08491e4f642e29e.jpg. 
+
+I decided to split the website into 5 different sections to porvide greater clarity for the purpose of each page: 
+- Page One > Main Site > Fans will be able to immediately identify the main band of this wesbite - Imagine Dragons. They are greeted with the big band title, followed by a section containing a brief description of the band and lastly, a image gallery of the band in the format of a slideshow.
+
+- Page Two > History > For fans who are curious about how the band was etablished and what are the ups and downs they have went through throughout their career, here is a page for them. 
+
+
+
+
+
+
+
+
+
+
+Apps which I have used to design include: 
+1. Adobe XD (Wireframe): <link>
+
+
+
+I decided to apply what we have learnt during lessons such as forms, media queries, 
  
+
+
+
+
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
