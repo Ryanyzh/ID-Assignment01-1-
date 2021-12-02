@@ -396,7 +396,7 @@ body {
 
 
 
-/* NAVIGATION BAR */
+/*...................................................NAVIGATION BAR............................................*/
 .navbar{
     max-width: 100%;
     display: flex;
@@ -706,7 +706,7 @@ body {
 
 
 /*...................................................PAGE TWO............................................*/
-
+/* MAIN PAGE TITLE*/
 .shag{
     display: inline-block;
     width: 100%;
@@ -721,6 +721,8 @@ body {
     background-size: cover;
     text-transform: uppercase;
 }
+
+/* COLLAPIBLE CONTENT (HISTORY) */
 .stuff{
     margin-top: 50px;
     width: 100%;
@@ -806,7 +808,7 @@ body {
 }
 
 
-
+/* 4 BAND MEMBERS IMAGES */
 .right-col{
     position: relative;
     flex-basis: 35%;
@@ -825,6 +827,7 @@ body {
     margin-bottom: 50px;
 }
 
+/* EXTRA MEMBERS INFORMATION*/
 .overlay{
     position: absolute;
     bottom: 0;
@@ -872,8 +875,7 @@ body {
 
 
 /*...................................................PAGE THREE............................................*/
-
-
+/* MAIN PAGE TITLE*/
 .gist{
     min-width: 100%;
     background-color: #FF7200;
@@ -888,6 +890,8 @@ body {
     font-family: 'Boogaloo', cursive;
     text-transform: uppercase;
 }
+
+/* VIDEOS AND PLAYLIST CONTENT*/
 .sub-body{
     position: relative;
     margin-top: 5%;
@@ -908,6 +912,7 @@ body {
     padding: 5px 5%;
 }
 
+/* MAIN VIDEO*/
 .box .main-video{
     background: transparent;
     border-radius: 2px;
@@ -931,6 +936,7 @@ body {
     font-family: 'Boogaloo', cursive;
 }
 
+/* RIGHT VIDEO LIST (SCROLLABLE) */
 .box .video-list{
     background: transparent;
     border: 4px solid #FFFFFF;
@@ -995,7 +1001,7 @@ body {
 
 
 /*...................................................PAGE FOUR............................................*/
-
+/* MAIN PAGE TITLE*/
 .exhausted{
     margin-top: 0%;
     min-width: 100%;
@@ -1011,6 +1017,8 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
+
+/* EVENT TICKET + INFORMATION*/
 .tickets{
     display: inline-block;
     max-width: 100%;
@@ -1092,8 +1100,7 @@ body {
 
 
 /*...................................................FEEDBACK............................................*/
-
-
+/* MAIN PAGE TITLE*/
 .thanks{
     display: inline-block;
     width: 100%;
@@ -1109,6 +1116,7 @@ body {
     text-transform: uppercase;
 }
 
+/* FORM */
 .feedback {
     margin-top: 8%;
     margin-bottom: 8%;
@@ -1194,7 +1202,8 @@ label{
     display: table;
     clear: both;
 }
-  
+
+/* RATINGS WITH EMOJI */
 .feedbackbox {
     border-radius: 4px;
     width: 68%;
@@ -1234,7 +1243,6 @@ label{
 }
 
 /*...................................................SOCIAL MEDIA............................................*/
-
 .social-media{
     width: 100%;
     height: 100px;
