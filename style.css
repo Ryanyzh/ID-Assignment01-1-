@@ -578,7 +578,7 @@ body {
     padding-right: 10px;
 }
 .col-right p{
-    width: 90%;
+    width: 100%;
     text-align: justify;
     color: #000000;
     font-size: 35px;
@@ -587,11 +587,11 @@ body {
     padding: 20px;
     float: left;
     position: relative;
-    top: 75px;
+    top: 25px;
 }
 
 .button-first{
-    display: inline-block;
+    display: block;
     text-align: center;
     font-size: 25px;
     font-weight: 800;
