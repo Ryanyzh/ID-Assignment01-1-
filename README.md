@@ -48,6 +48,12 @@ I decided to split the website into 5 different sections to porvide greater clar
 Apps which I have used to design include: 
 1. Adobe XD (Wireframe): <link>
 
+Target Audience and their Purpose of visiting this Website:
+1. Regular readers who wants to know a little on what the band, Imagine Dragons is about such as the songs they produce.
+2. Fans and readers who are curious and interested to find out more about the band history as well as its members.
+3. Fans and readers to want to purchase and book tickets for imagine dragon events such as their concert. 
+4. Fans and readers who wants to listen into the music or watch their music video as they are all consolidated into one section without any advertisements 
+   
 
 
 I decided to apply what we have learnt during lessons such as forms, media queries, 
@@ -82,8 +88,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Html](https://html.com/)
+    - The project uses **HTML** to create the content of this website.
+
+- [CSS]()
 
 
 ## Testing
