@@ -1,142 +1,177 @@
 
 
 
-# Ryan's ID Assignment --> Band Website - Imagine Dragons 
+# Ryan's ID Assignment --> Band Website - Imagine Dragons
 
 For this assignment, I have created a website for one of the most popular band in the world - Imagine Dragons. 
 
-A short introduction of Imagine Dragons. They have sold more than 75 million records worldwide. They were the most streamed group of 2018 on Spotify and are the first rock act to have four songs, "Radioactive", "Demons", "Believer" and "Thunder", to surpass one billion streams each. It comprises of the 4 members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben  Mckee. 
+A short introduction of Imagine Dragons. They have sold more than 75 million records worldwide. They were the most streamed group of 2018 on Spotify and are the first rock act to have four songs, "Radioactive", "Demons", "Believer" and "Thunder", to surpass one billion streams each. It comprises of the 4 members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben Mckee. 
 
-Did you know the name "Imagine Dargons" is an anagram. (Ps. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.)
+Did you know the name "Imagine Dragons" is an anagram. (Ps. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.)
 
-From the introduction of the band to the elaboration of the band's history by their albums, display of their music videos and booking for their concert evnets, readers are able to accomplish these tasks all in one site. 
+From the introduction of the band to the elaboration of the band's history, display of their music videos and reservation for their concert events, readers are able to accomplish these tasks all in one site. 
 
-
-
- 
 ## Design Process
-Target Audience and their Purpose of visiting this Website:
-  1. Regular readers who wants to know a little on what the band, Imagine Dragons is about such as the songs they produce.
+
+Target Audience + Purpose:
+  1. Readers who wants to know a little on what the band, Imagine Dragons is about, such as the songs they produce.
   2. Fans and readers who are curious and interested to find out more about the band history as well as its members.
   3. Fans and readers to want to purchase and book tickets for imagine dragon events such as their concert. 
   4. Fans and readers who wants to listen into the music or watch their music video as they are all consolidated into one section without any advertisements 
 
-
-I have decided to split all the contents into 5 seperate sections(pages) for a greater clarity and each page serves a different purpose.
-
-
-- Page One > Home > Fans will be able to immediately identify the main band of this wesbite - Imagine Dragons. They are greeted with the big band title, followed by a section containing a brief description of the band and lastly, a image gallery of the band in the format of a slideshow.
-    - In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
-
-- Page Two > History > For fans who are curious about how the band was etablished and what are the ups and downs they have went through throughout their career, here is a page for them. 
-
-- Page tHREE
+As there are much information about the website, I decided to focus on the important yet relevant content about the band, mainly the band's history, their videos and music and last but not least their concert events. Thus, I have split the contents into 5 separate sections/pages for better clarity and each page serves a different purpose.
 
 
+- All
+    - Navigate throughout the website using an animated navigation bar with a glow effect
+    - Access the band social media platform using the social media bar consisting of their Instagram, Facebook, YouTube, and twitter links. 
+    - Attributing the author in the footer box. 
+
+- Page One > Home 
+    - Identify what the website is about: Huge Title.
+    - Briefly understand what the band is and who does it consists of: image of the band and a short description about the band.
+    - Scroll and admire the images about the band: image slideshow with 9 different band images.
+
+- Page Two > History 
+    - Summarize the purpose of the page: Huge Header.
+    - Understand and learn more about the different chapters of the band's history: collapsible bars/buttons with the respective content.
+    - Know more about the different members of the band: 4 different images with the overlay effect containing the information about the members. 
+
+- Page Three > Playlist
+    - Summarize the purpose of the page: Huge Header.
+    - Watch and listen to the selected band music video: main video frame (2 frames)
+    - Select what videos to watch or listen and chill: video selection list with scroll effect (1 frame)
+
+- Page Four > Events
+    - Summarize the purpose of the page: Huge Header.
+    - Learn about the different details of the concerts: orange right box
+    - Book and pay for their reservation: book now button
+    - Sidenote: The different row boxes are made to resemble the concert tickets. 
+
+- Page Five > Feedback
+    - Thank the readers for making it till the end: Huge Title
+    - Collect suggestion on the improvement of the website: Form Page + ratings function with emojis
 
 
+With the wireframes created, I use the idea to build up my website and add in the basic content for the website. In the following weeks, I then implement more animations and interaction with the readers. I focus more on the experience on the desktop compared to the mobile version as I feel that there is a higher amount of web users accessing the website compared to mobile users. 
 
+I made use of what we have learnt during lessons such as semantic html, media queries and form creation. W3schools and lesson slides are used as reference during the build-up of the website. 
 
-
-
-
+The colours used throughout the website include black (#000000), white(#FFFFFF), neon orange(#FF7200) and grey(#4b4b4b). The navigation bar, social media bars and footer is used throughout the website. Font-size and button animation are used consistently throughout the website. 
 
 Apps which I have used to design include: 
-1. Adobe XD (Wireframe): as attached
-
-
+1. Adobe XD (Wireframe): As Attached in the file or in GitHub
    
-
-
-I decided to apply what we have learnt during lessons such as forms, media queries, 
- 
-
-
-
-
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
 ## Features 
- 
 ### Existing Features
-- Navigation Bar:
-    - The navigation bar is animated at the top of the webiste and when the users hover over the respective content of the navigation bar, a bright neon orange glow will appear. 
-    - The navigation bar allows the users to access each page sccordingly based on their preferences. 
+1. Navigation Bar (Top):
+    - The navigation bar is located at the top of the website and is animated. Therefore, when the users hover over the respective content of the navigation bar, a bright neon orange glow will appear. 
+    - The navigation bar allows the users to access each page accordingly based on their preferences. 
 
-- Image Gallery (Slideshow):
+2. Image Gallery/Slideshow (Home - First):
     - The slideshow contains 9 different images for the band and the images are taken during their concerts or events. 
-    - The slideshow can be navigated using the plus and minus sign located at the end (left and right) of the main image. 
-    - When the users hover over the image row found below the main image........................ 
+    - The slideshow can be navigated using the plus and minus sign located at the end (left and right) of the main image. OR
+    - The images can be selected using the row gallery found at the bottom of the main image. When the image is hovered over, the opacity of that image increases to enhance the visibility. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+3. Collapsible Buttons/Boxes (History - Second):
+      - To add in more contents about the different chapters in the band's history, these buttons are used when users want to view more about that particular chapter. 
+      - clicking on it will display the content while clicking on it again hide the content, making the website neater. 
+
+4. Overlay Effect (History - Second):
+      - There are boxes with contains the relevant information about each of the band members. 
+      - when the image is hovered over, the effect is applied, and a translucent box appears with the information. it fades when the cursor moves away from it. 
+
+5. Playlist (Playlist - Third):
+      - It holds 10-15 different music videos for the band. 
+      - the video can be selected from the video list on the right. more videos can be found while scrolling down the list. when a particular video is clicked, the main frame will then be presented with the selected video. 
+
+6. Flex-basis layout (Mainly in Events - Fourth)
+      - the column size is controlled between the percentage placed in the
+
+7. Ratings with Emoji (Feedback - Fifth)
+      - there is a total of 5 stars which users can give to rate the website. 
+      - each star is represented with a specific emoji from bad to excellent. thus, when a star is clicked, the emoji is changed along with it
 
 ### Features Left to Implement
-- Sticky Navigation Bar --> fixed when scrolling and remains visible at the top of the website throughout viewing. 
-- Scrollable Content --> animation where items on the site fade and appear on scoll from the perspective of the viewers.  
+1. Sticky Navigation Bar --> fixed when scrolling and remains visible at the top of the website throughout viewing. 
+  
+2. Scrollable Content --> animation where items on the site fade and appear on scroll from the perspective of the viewers. 
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [HTML](https://html.com/)
     - The project uses **HTML** to create the content of this website.
 
 - [CSS](https://css-tricks.com/)
     - The project uses **CSS** to create the style and colour of this website.
 
-- [JavaScipt](https://css-tricks.com/)
+- [JavaScript](https://css-tricks.com/)
     - The project uses **JS** to create the animation and interaction of this website.
 
-- [JQuery](https://jquery.com/)
-    - The project uses **JQuery** to simplify DOM manipulation of this website.
+- [jQuery](https://jquery.com/)
+    - The project uses **jQuery** to simplify DOM manipulation of this website.
 
-- [w3schools](https://www.w3schools.com/)
+- [w3schools] (https://www.w3schools.com/)
     - The project uses **W3Schools** to learn and create this website.
 
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code] (https://code.visualstudio.com/)
     - The project uses **VSC** as a text editor.
 
-- [Adobe XD](https://www.adobe.com/sg/products/xd.html)
+- [Adobe XD] (https://www.adobe.com/sg/products/xd.html)
     - The project uses **Adobe XD** as a wireframe tool.
 
-- [Google Chrome](https://www.google.com/)
-    - The project uses **Google** as a site to view the website.
-
+- [Google Chrome] (https://www.google.com/)
+    - The project uses **Google** as a site to view the html and CSS content.
 
 ## Testing
+1. Navigation Bar:
+   a) Hover over the contents of the navigation bar --> it should light up with a glow effect and have a reflection under it. 
+   b) Clicking on the contents --> it should appear in other pages in the same position.
 
+2. Home Page (First):
+   a) Hover over the button under the brief description --> it should change the colour of the words and the background. 
+   b) Click on the button --> a new page with the affiliated link should appear 
+   c) Click on the plus and minus symbols under the Slideshow, the content should move accordingly to the next or previous. 
+   d) hover over the images in the row gallery --> content should have an increase in opacity
+   e) click on the image in the row gallery --> content should appear as the main image. 
+
+3. History Page (Second):
+   a) hover over the orange bar --> the colour should change into light orange
+   b) click on the orange bar --> there should be extra contents appearing in a drop-down format 
+   c) click again on the orange bar --> the contents should be hidden immediately
+   d) hover over the image of the member --> there should be a coloured box with content on it appearing on top of the image
+   e) hover over the image of the member --> the image should move slightly to the right
+   f) hover over the button in the history content section --> the colour of the words and the background should change
+   g) Click on the button --> a new page with the affiliated link should appear 
+
+4. Playlist Page (Third):
+   a) scroll down the video list --> the contents should move accordingly 
+   b) scroll up the video list --> the contents should move accordingly  
+   c) Click play on the video in the main frame --> the video should play without any problems
+   d) Select by clicking the video on the video list --> the existing video in the main frame should be swapped out with the selected video and the title is also swapped out
+
+5. Events Page (Fourth):
+   a) Hover over the "Book Now" button --> the colour of the words and background should change
+   b) Click on the button --> a new page with the affiliated link will appear 
+
+6. Feedback Page (Fifth):
+   a) click on any empty section --> users should be able to type into the relevant fields
+   b) click on any stars of the ratings portion --> the emoji should change accordingly from the number of stars selected
+   c) hover over the submit button --> the colour of the words and background should change 
+   d) click on the submit button --> if the inputs are not given properly, the form should show an error message.
+   d) click on the submit button --> an alert will appear on the screen 
+   e) click on the ok button on the alert pop-up --> user should be directed to a new tab
+
+7. Social Media Bar:
+   a) Hover over the icons --> a circular background should appear in different colours based on the social media icons. 
+   b) click on the icons --> a new page should open in another directory with the relevant information. 
 
 - Completed 
-    - The media query is used in the format for iphone 6/7/8.
-
+    - Web dimensions: Tested on Chrome and Firefox
+    - Mobile dimensions: Tested on iPhone 6/7/8 and X.
 
 - Incomplete: 
-    1. For the media query of the playlist page, the social media bar is stuck in the middle of the page together with the video list.
+    1. For the mobile view of the playlist page, the social media bar is stuck in the middle together with the video list.
     2. Media queries **might** not work as intended for the other dimensions. 
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-
-
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
@@ -155,8 +190,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Content
 - Page One - Home: content in the brief description was taken from: [LiveAbout](https://www.liveabout.com/imagine-dragons-profile-4149815)
 - Page Two - History: content in the main frame was taken from: [Fandom](https://imaginedragons.fandom.com/wiki/Imagine_Dragons)
-- Page Three - Playlist: content of the music and videos was taken from: [Youtube](https://youtube.com/)
-- Page Four - Events: content of the concert events was taken from: [Imagine-Dragons-Official-Website](https://www.imaginedragonsmusic.com/tour)
+- Page Three - Playlist: content of the music and videos was taken from: [YouTube](https://youtube.com/)
+- Page Four - Events: content of the concert events was taken from: [Imagine-Dragons-Official-Website] (https://www.imaginedragonsmusic.com/tour)
 - Page Five - Feedback: content was taken from the creator of this website.
 
 
