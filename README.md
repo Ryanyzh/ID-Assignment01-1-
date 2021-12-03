@@ -113,57 +113,57 @@ Apps which I have used to design include:
 - [w3schools] (https://www.w3schools.com/)
     - The project uses **W3Schools** to learn and create this website.
 
-- [Visual Studio Code] (https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
     - The project uses **VSC** as a text editor.
 
-- [Adobe XD] (https://www.adobe.com/sg/products/xd.html)
+- [Adobe XD](https://www.adobe.com/sg/products/xd.html)
     - The project uses **Adobe XD** as a wireframe tool.
 
-- [Google Chrome] (https://www.google.com/)
+- [Google Chrome](https://www.google.com/)
     - The project uses **Google** as a site to view the html and CSS content.
 
 ## Testing
 1. Navigation Bar:
-   a) Hover over the contents of the navigation bar --> it should light up with a glow effect and have a reflection under it. 
-   b) Clicking on the contents --> it should appear in other pages in the same position.
+   - Hover over the contents of the navigation bar --> it should light up with a glow effect and have a reflection under it. 
+   - Clicking on the contents --> it should appear in other pages in the same position.
 
 2. Home Page (First):
-   a) Hover over the button under the brief description --> it should change the colour of the words and the background. 
-   b) Click on the button --> a new page with the affiliated link should appear 
-   c) Click on the plus and minus symbols under the Slideshow, the content should move accordingly to the next or previous. 
-   d) Hover over the images in the row gallery --> content should have an increase in opacity
-   e) Click on the image in the row gallery --> content should appear as the main image. 
+   - Hover over the button under the brief description --> it should change the colour of the words and the background. 
+   - Click on the button --> a new page with the affiliated link should appear 
+   - Click on the plus and minus symbols under the Slideshow, the content should move accordingly to the next or previous. 
+   - Hover over the images in the row gallery --> content should have an increase in opacity
+   - Click on the image in the row gallery --> content should appear as the main image. 
 
 3. History Page (Second):
-   a) Hover over the orange bar --> the colour should change into light orange
-   b) Click on the orange bar --> there should be extra contents appearing in a drop-down format 
-   c) Click again on the orange bar --> the contents should be hidden immediately
-   d) Hover over the image of the member --> there should be a coloured box with content on it appearing on top of the image
-   e) hover over the image of the member --> the image should move slightly to the right
-   f) Hover over the button in the history content section --> the colour of the words and the background should change
-   g) Click on the button --> a new page with the affiliated link should appear 
+   - Hover over the orange bar --> the colour should change into light orange
+   - Click on the orange bar --> there should be extra contents appearing in a drop-down format 
+   - Click again on the orange bar --> the contents should be hidden immediately
+   - Hover over the image of the member --> there should be a coloured box with content on it appearing on top of the image
+   - hover over the image of the member --> the image should move slightly to the right
+   - Hover over the button in the history content section --> the colour of the words and the background should change
+   - Click on the button --> a new page with the affiliated link should appear 
 
 4. Playlist Page (Third):
-   a) Scroll down the video list --> the contents should move accordingly 
-   b) Scroll up the video list --> the contents should move accordingly  
-   c) Click play on the video in the main frame --> the video should play without any problems
-   d) Select by clicking the video on the video list --> the existing video in the main frame should be swapped out with the selected video and the title is also swapped out
+   - Scroll down the video list --> the contents should move accordingly 
+   - Scroll up the video list --> the contents should move accordingly  
+   - Click play on the video in the main frame --> the video should play without any problems
+   - Select by clicking the video on the video list --> the existing video in the main frame should be swapped out with the selected video and the title is also swapped out
 
 5. Events Page (Fourth):
-   a) Hover over the "Book Now" button --> the colour of the words and background should change
-   b) Click on the button --> a new page with the affiliated link will appear 
+   - Hover over the "Book Now" button --> the colour of the words and background should change
+   - Click on the button --> a new page with the affiliated link will appear 
 
 6. Feedback Page (Fifth):
-   a) Click on any empty section --> users should be able to type into the relevant fields
-   b) Click on any stars of the ratings portion --> the emoji should change accordingly from the number of stars selected
-   c) Hover over the submit button --> the colour of the words and background should change 
-   d) Click on the submit button --> if the inputs are not given properly, the form should show an error message.
-   d) Click on the submit button --> an alert will appear on the screen 
-   e) Click on the ok button on the alert pop-up --> user should be directed to a new tab
+   - Click on any empty section --> users should be able to type into the relevant fields
+   - Click on any stars of the ratings portion --> the emoji should change accordingly from the number of stars selected
+   - Hover over the submit button --> the colour of the words and background should change 
+   - Click on the submit button --> if the inputs are not given properly, the form should show an error message.
+   - Click on the submit button --> an alert will appear on the screen 
+   - Click on the ok button on the alert pop-up --> user should be directed to a new tab
 
 7. Social Media Bar:
-   a) Hover over the icons --> a circular background should appear in different colours based on the social media icons. 
-   b) Click on the icons --> a new page should open in another directory with the relevant information. 
+   - Hover over the icons --> a circular background should appear in different colours based on the social media icons. 
+   - Click on the icons --> a new page should open in another directory with the relevant information. 
 
 - Completed 
     - Web dimensions: Tested on Chrome and Firefox
