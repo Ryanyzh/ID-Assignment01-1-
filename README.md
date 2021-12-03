@@ -75,22 +75,22 @@ Apps which I have used to design include:
 
 3. Collapsible Buttons/Boxes (History - Second):
       - To add in more contents about the different chapters in the band's history, these buttons are used when users want to view more about that particular chapter. 
-      - clicking on it will display the content while clicking on it again hide the content, making the website neater. 
+      - Clicking on it will display the content while clicking on it again hide the content, making the website neater. 
 
 4. Overlay Effect (History - Second):
       - There are boxes with contains the relevant information about each of the band members. 
-      - when the image is hovered over, the effect is applied, and a translucent box appears with the information. it fades when the cursor moves away from it. 
+      - When the image is hovered over, the effect is applied, and a translucent box appears with the information. it fades when the cursor moves away from it. 
 
 5. Playlist (Playlist - Third):
       - It holds 10-15 different music videos for the band. 
-      - the video can be selected from the video list on the right. more videos can be found while scrolling down the list. when a particular video is clicked, the main frame will then be presented with the selected video. 
+      - The video can be selected from the video list on the right. more videos can be found while scrolling down the list. when a particular video is clicked, the main frame will then be presented with the selected video. 
 
 6. Flex-basis layout (Mainly in Events - Fourth)
-      - the column size is controlled between the percentage placed in the
+      - The column size is controlled between the percentage placed in the
 
 7. Ratings with Emoji (Feedback - Fifth)
-      - there is a total of 5 stars which users can give to rate the website. 
-      - each star is represented with a specific emoji from bad to excellent. thus, when a star is clicked, the emoji is changed along with it
+      - There is a total of 5 stars which users can give to rate the website. 
+      - Each star is represented with a specific emoji from bad to excellent. thus, when a star is clicked, the emoji is changed along with it
 
 ### Features Left to Implement
 1. Sticky Navigation Bar --> fixed when scrolling and remains visible at the top of the website throughout viewing. 
@@ -131,21 +131,21 @@ Apps which I have used to design include:
    a) Hover over the button under the brief description --> it should change the colour of the words and the background. 
    b) Click on the button --> a new page with the affiliated link should appear 
    c) Click on the plus and minus symbols under the Slideshow, the content should move accordingly to the next or previous. 
-   d) hover over the images in the row gallery --> content should have an increase in opacity
-   e) click on the image in the row gallery --> content should appear as the main image. 
+   d) Hover over the images in the row gallery --> content should have an increase in opacity
+   e) Click on the image in the row gallery --> content should appear as the main image. 
 
 3. History Page (Second):
-   a) hover over the orange bar --> the colour should change into light orange
-   b) click on the orange bar --> there should be extra contents appearing in a drop-down format 
-   c) click again on the orange bar --> the contents should be hidden immediately
-   d) hover over the image of the member --> there should be a coloured box with content on it appearing on top of the image
+   a) Hover over the orange bar --> the colour should change into light orange
+   b) Click on the orange bar --> there should be extra contents appearing in a drop-down format 
+   c) Click again on the orange bar --> the contents should be hidden immediately
+   d) Hover over the image of the member --> there should be a coloured box with content on it appearing on top of the image
    e) hover over the image of the member --> the image should move slightly to the right
-   f) hover over the button in the history content section --> the colour of the words and the background should change
+   f) Hover over the button in the history content section --> the colour of the words and the background should change
    g) Click on the button --> a new page with the affiliated link should appear 
 
 4. Playlist Page (Third):
-   a) scroll down the video list --> the contents should move accordingly 
-   b) scroll up the video list --> the contents should move accordingly  
+   a) Scroll down the video list --> the contents should move accordingly 
+   b) Scroll up the video list --> the contents should move accordingly  
    c) Click play on the video in the main frame --> the video should play without any problems
    d) Select by clicking the video on the video list --> the existing video in the main frame should be swapped out with the selected video and the title is also swapped out
 
@@ -154,16 +154,16 @@ Apps which I have used to design include:
    b) Click on the button --> a new page with the affiliated link will appear 
 
 6. Feedback Page (Fifth):
-   a) click on any empty section --> users should be able to type into the relevant fields
-   b) click on any stars of the ratings portion --> the emoji should change accordingly from the number of stars selected
-   c) hover over the submit button --> the colour of the words and background should change 
-   d) click on the submit button --> if the inputs are not given properly, the form should show an error message.
-   d) click on the submit button --> an alert will appear on the screen 
-   e) click on the ok button on the alert pop-up --> user should be directed to a new tab
+   a) Click on any empty section --> users should be able to type into the relevant fields
+   b) Click on any stars of the ratings portion --> the emoji should change accordingly from the number of stars selected
+   c) Hover over the submit button --> the colour of the words and background should change 
+   d) Click on the submit button --> if the inputs are not given properly, the form should show an error message.
+   d) Click on the submit button --> an alert will appear on the screen 
+   e) Click on the ok button on the alert pop-up --> user should be directed to a new tab
 
 7. Social Media Bar:
    a) Hover over the icons --> a circular background should appear in different colours based on the social media icons. 
-   b) click on the icons --> a new page should open in another directory with the relevant information. 
+   b) Click on the icons --> a new page should open in another directory with the relevant information. 
 
 - Completed 
     - Web dimensions: Tested on Chrome and Firefox
