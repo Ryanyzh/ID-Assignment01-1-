@@ -3,29 +3,11 @@
 
 # Ryan's ID Assignment --> Band Website - Imagine Dragons 
 
+For this assignment, I have created a website for one of the most popular band in the world - Imagine Dragons. 
 
-Imagine Dragons an aspiring and well-known band group with the members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben Mckee. 
+A short introduction of Imagine Dragons. They have sold more than 75 million records worldwide. They were the most streamed group of 2018 on Spotify and are the first rock act to have four songs, "Radioactive", "Demons", "Believer" and "Thunder", to surpass one billion streams each. It comprises of the 4 members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben  Mckee. 
 
-In this assignment, I have created website for Imagine Dragons. In the site, users can understand the history by albums, listen and watch their music videos, book tickets for their concert events while admiring the bands photos all in one site. Presenting to you the site......
-
-
-
-
-
-I
-
-There is 5 pages altogether and more details is explained later. All pages contain a navigation bar with the 5 pages included.
-
-In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
-
-In the second page, we 
-
-
-
-
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+From the introduction of the band to the elaboration of the band's history by their albums, display of their music videos and booking for their concert evnets, readers are able to accomplish these tasks all in one site. 
  
 ## Design Process
 
@@ -34,6 +16,7 @@ Essentially, this part is your sales pitch.
 I decided to split the website into 5 different sections to porvide greater clarity for the purpose of each page: 
 
 - Page One > Home > Fans will be able to immediately identify the main band of this wesbite - Imagine Dragons. They are greeted with the big band title, followed by a section containing a brief description of the band and lastly, a image gallery of the band in the format of a slideshow.
+    - In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
 
 - Page Two > History > For fans who are curious about how the band was etablished and what are the ups and downs they have went through throughout their career, here is a page for them. 
 
@@ -77,8 +60,14 @@ In Page One:
   - 
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Navigation Bar:
+    - The navigation bar is animated at the top of the webiste and when the users hover over the respective content of the navigation bar, a bright neon orange glow will appear. 
+    - The navigation bar allows the users to access each page sccordingly based on their preferences. 
+
+- Image Gallery (Slideshow):
+    - The slideshow contains 9 different images for the band and the images are taken during their concerts or events. 
+    - The slideshow can be navigated using the plus and minus sign located at the end (left and right) of the main image. 
+    - When the users hover over the image row found below the main image........................ 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -109,7 +98,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **VSC** as a text editor.
 
 - [Adobe XD](https://www.adobe.com/sg/products/xd.html)
-    - The project uses **VSC** as a wireframe tool.
+    - The project uses **Adobe XD** as a wireframe tool.
 
 - [Google Chrome](https://www.google.com/)
     - The project uses **Google** as a site to view the website.
@@ -118,7 +107,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Testing
 
 
-1. 
+- Completed 
+    - The media query is used in the format for iphone 6/7/8.
+
+
+- Incomplete: 
+    1. For the media query of the playlist page, the social media bar is stuck in the middle of the page together with the video list.
+    2. Media queries **might** not work as intended for the other dimensions. 
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
@@ -129,7 +124,7 @@ For any scenarios that have not been automated, test the user stories manually a
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-###
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -152,10 +147,10 @@ If this section grows too long, you may want to split it off into a separate fil
 11. Icons: https://fontawesome.com/ 
 
 ### Content
-- Page One - Home: content in the brief description was taken from:[LiveAbout](https://www.liveabout.com/imagine-dragons-profile-4149815)
-- Page Two - History: content in the main frame was taken from:[Fandom](https://imaginedragons.fandom.com/wiki/Imagine_Dragons)
-- Page Three - Playlist: content of the music and videos was taken from:[Youtube](https://youtube.com/)
-- Page Four - Events: content of the concert events was taken from:[Imagine-Dragons-Official-Website](https://www.imaginedragonsmusic.com/tour)
+- Page One - Home: content in the brief description was taken from: [LiveAbout](https://www.liveabout.com/imagine-dragons-profile-4149815)
+- Page Two - History: content in the main frame was taken from: [Fandom](https://imaginedragons.fandom.com/wiki/Imagine_Dragons)
+- Page Three - Playlist: content of the music and videos was taken from: [Youtube](https://youtube.com/)
+- Page Four - Events: content of the concert events was taken from: [Imagine-Dragons-Official-Website](https://www.imaginedragonsmusic.com/tour)
 - Page Five - Feedback: content was taken from the creator of this website.
 
 
@@ -213,26 +208,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 
-
-
-
-
-header image taken from:
- <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a>
-
-
- ben:
- https://i.pinimg.com/originals/eb/a0/ee/eba0eeb69b54d8b74b9df7494c7abc24.jpg
- wayne:
-https://cdnb.artstation.com/p/assets/images/images/007/226/995/large/valentina-cannas-wayne.jpg?1504613167
-
-
-
-https://i.pinimg.com/originals/70/aa/fb/70aafb95d22abac307926d5baf48ba2f.jpg
- dan:
- https://cdna.artstation.com/p/assets/images/images/006/968/370/large/valentina-cannas-dan-reynolds-1.jpg?1502662275 
- daniel:
- https://cdnb.artstation.com/p/assets/images/images/006/968/371/large/valentina-cannas-platzman2.jpg?1502662288
  
 
 
