@@ -522,7 +522,7 @@ body {
 /* MAIN IMAGINE DRAGON TITLE*/
 .header{
     margin-top: 30px;
-    background-image: url("background2.png");
+    background-image: url("Images/background2.png");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -1121,7 +1121,7 @@ body {
 .feedback {
     margin-top: 8%;
     margin-bottom: 8%;
-    background-image: url("background1.png");
+    background-image: url("Images/background1.png");
     background-position: center;
     background-size: cover;
     padding: 100px;

@@ -6,7 +6,7 @@ hi there:)
 
 Imagine Dragons an aspiring and well-known band group with the members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben Mckee. 
 
-In this assignment, a website was created for the band, Imagine Dragons. In here, fans can understand the history by albums, listen and watch their music videos, book tickets for their concert events while admiring the bands photos all in one site. Presenting to you the site......
+In this assignment, I have created website for Imagine Dragons. In the site, users can understand the history by albums, listen and watch their music videos, book tickets for their concert events while admiring the bands photos all in one site. Presenting to you the site......
 
 
 
@@ -29,7 +29,9 @@ Essentially, this part is your sales pitch.
  
 ## Design Process
 
-The content of this website is inspired from here https://i.pinimg.com/236x/ad/1d/fa/ad1dfa9003af8ed1e08491e4f642e29e.jpg. 
+The content of this website was inspired from: https://i.pinimg.com/236x/ad/1d/fa/ad1dfa9003af8ed1e08491e4f642e29e.jpg. 
+
+The colour scheme of this website was inspired from: https://cdn.dribbble.com/users/2718931/screenshots/10346946/media/402533a2d00d0844f7e7182843984a64.png?compress=1&resize=400x300 
 
 I decided to split the website into 5 different sections to porvide greater clarity for the purpose of each page: 
 - Page One > Main Site > Fans will be able to immediately identify the main band of this wesbite - Imagine Dragons. They are greeted with the big band title, followed by a section containing a brief description of the band and lastly, a image gallery of the band in the format of a slideshow.
