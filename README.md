@@ -15,15 +15,22 @@ From the introduction of the band to the elaboration of the band's history by th
 
  
 ## Design Process
+Target Audience and their Purpose of visiting this Website:
+  1. Regular readers who wants to know a little on what the band, Imagine Dragons is about such as the songs they produce.
+  2. Fans and readers who are curious and interested to find out more about the band history as well as its members.
+  3. Fans and readers to want to purchase and book tickets for imagine dragon events such as their concert. 
+  4. Fans and readers who wants to listen into the music or watch their music video as they are all consolidated into one section without any advertisements 
 
 
+I have decided to split all the contents into 5 seperate sections(pages) for a greater clarity and each page serves a different purpose.
 
-I decided to split the website into 5 different sections to porvide greater clarity for the purpose of each page: 
 
 - Page One > Home > Fans will be able to immediately identify the main band of this wesbite - Imagine Dragons. They are greeted with the big band title, followed by a section containing a brief description of the band and lastly, a image gallery of the band in the format of a slideshow.
     - In the first page, there is the title of Imagine Dragons with a background. Next, there is a 2 grid column with the left column holding the image of the 4 members and the other column providing a brief description of the band. There is a click more button for the users to explore more about the band. 
 
 - Page Two > History > For fans who are curious about how the band was etablished and what are the ups and downs they have went through throughout their career, here is a page for them. 
+
+- Page tHREE
 
 
 
@@ -35,13 +42,9 @@ I decided to split the website into 5 different sections to porvide greater clar
 
 
 Apps which I have used to design include: 
-1. Adobe XD (Wireframe): <link>
+1. Adobe XD (Wireframe): as attached
 
-Target Audience and their Purpose of visiting this Website:
-1. Regular readers who wants to know a little on what the band, Imagine Dragons is about such as the songs they produce.
-2. Fans and readers who are curious and interested to find out more about the band history as well as its members.
-3. Fans and readers to want to purchase and book tickets for imagine dragon events such as their concert. 
-4. Fans and readers who wants to listen into the music or watch their music video as they are all consolidated into one section without any advertisements 
+
    
 
 
