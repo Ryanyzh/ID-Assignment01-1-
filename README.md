@@ -7,7 +7,12 @@ For this assignment, I have created a website for one of the most popular band i
 
 A short introduction of Imagine Dragons. They have sold more than 75 million records worldwide. They were the most streamed group of 2018 on Spotify and are the first rock act to have four songs, "Radioactive", "Demons", "Believer" and "Thunder", to surpass one billion streams each. It comprises of the 4 members - Dan Reynolds, Daniel Platzman, Wayne Sermon and Ben  Mckee. 
 
+Did you know the name "Imagine Dargons" is an anagram. (Ps. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.)
+
 From the introduction of the band to the elaboration of the band's history by their albums, display of their music videos and booking for their concert evnets, readers are able to accomplish these tasks all in one site. 
+
+
+
  
 ## Design Process
 
@@ -55,9 +60,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
-## Features
-In Page One:
-  - 
+## Features 
  
 ### Existing Features
 - Navigation Bar:
