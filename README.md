@@ -110,7 +110,7 @@ Apps which I have used to design include:
 - [jQuery](https://jquery.com/)
     - The project uses **jQuery** to simplify DOM manipulation of this website.
 
-- [w3schools] (https://www.w3schools.com/)
+- [w3schools](https://www.w3schools.com/)
     - The project uses **W3Schools** to learn and create this website.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
